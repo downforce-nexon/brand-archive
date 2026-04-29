@@ -226,17 +226,30 @@
 </footer>
 
 <script>
-const projects = [
-  { id:1, title:"넥슨 브랜드 아이덴티티 리뉴얼",   category:"Branding", filter:["all","branding"], color:"#D8D8D8" },
-  { id:2, title:"메이플스토리 20주년 캠페인",        category:"Branding", filter:["all","branding"], color:"#D4D4D4" },
-  { id:3, title:"넥슨 아레나 공간 브랜딩",           category:"Graphic",  filter:["all","graphic"],  color:"#DADADA" },
-  { id:4, title:"던전앤파이터 브랜드 캠페인",        category:"Film",     filter:["film"],           color:"#D6D6D6" },
-  { id:5, title:"넥슨 디지털 가이드라인 시스템",     category:"Graphic",  filter:["graphic"],        color:"#DCDCDC" },
-  { id:6, title:"넥슨 코리아 채용 브랜딩",           category:"Branding", filter:["branding"],       color:"#D2D2D2" },
-  { id:7, title:"지스타 2023 브랜드 경험",           category:"Graphic",  filter:["all","graphic"],  color:"#D8DAD6" },
-  { id:8, title:"메이플스토리 월드컵 캠페인",        category:"Film",     filter:["film"],           color:"#DAD8D8" },
-  { id:9, title:"넥슨 연간 리포트 디자인",           category:"Graphic",  filter:["graphic"],        color:"#D8D8DA" },
-];
+let projects = [];
+
+// data.json에서 노션 데이터 로드
+async function loadData() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    const data = await res.json();
+    projects = data.projects;
+  } catch(e) {
+    console.warn('data.json 로드 실패, 더미 데이터 사용');
+    projects = [
+      { id:'1', title:"넥슨 브랜드 아이덴티티 리뉴얼", category:"Branding", filter:["all","branding"], color:"#D8D8D8", thumbnail:'' },
+      { id:'2', title:"메이플스토리 20주년 캠페인",     category:"Branding", filter:["all","branding"], color:"#D4D4D4", thumbnail:'' },
+      { id:'3', title:"넥슨 아레나 공간 브랜딩",        category:"Graphic",  filter:["all","graphic"],  color:"#DADADA", thumbnail:'' },
+      { id:'4', title:"던전앤파이터 브랜드 캠페인",     category:"Film",     filter:["film"],           color:"#D6D6D6", thumbnail:'' },
+      { id:'5', title:"넥슨 디지털 가이드라인 시스템",  category:"Graphic",  filter:["graphic"],        color:"#DCDCDC", thumbnail:'' },
+      { id:'6', title:"넥슨 코리아 채용 브랜딩",        category:"Branding", filter:["branding"],       color:"#D2D2D2", thumbnail:'' },
+      { id:'7', title:"지스타 2023 브랜드 경험",        category:"Graphic",  filter:["all","graphic"],  color:"#D8DAD6", thumbnail:'' },
+      { id:'8', title:"메이플스토리 월드컵 캠페인",     category:"Film",     filter:["film"],           color:"#DAD8D8", thumbnail:'' },
+      { id:'9', title:"넥슨 연간 리포트 디자인",        category:"Graphic",  filter:["graphic"],        color:"#D8D8DA", thumbnail:'' },
+    ];
+  }
+  renderProjects('all');
+}
 
 function renderProjects(filter) {
   const list = document.getElementById('projectList');
@@ -244,15 +257,12 @@ function renderProjects(filter) {
   list.innerHTML = '';
   if (!filtered.length) return;
 
-  // Featured: 기존 간격 / 나머지: 넓은 간격
   if (filter === 'all') {
     list.classList.remove('spaced');
   } else {
     list.classList.add('spaced');
   }
 
-  // FEATURED: 첫 번째 wide + 나머지 2열
-  // 나머지 필터: 모두 2열
   if (filter === 'all') {
     const r1 = document.createElement('div');
     r1.className = 'row-single';
@@ -267,7 +277,6 @@ function renderProjects(filter) {
       list.appendChild(row);
     }
   } else {
-    // Branding / Graphic / Film: 첫 번째부터 모두 2열
     for (let i = 0; i < filtered.length; i += 2) {
       const row = document.createElement('div');
       row.className = 'row-double';
@@ -288,10 +297,18 @@ function makeCard(p, wide, hideInfo = false) {
   const a = document.createElement('a');
   a.className = 'project-card';
   a.href = `project.html?id=${p.id}`;
+
+  let thumbContent;
+  if (p.thumbnailVideo) {
+    thumbContent = `<video src="${p.thumbnailVideo}" autoplay loop muted playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"></video>`;
+  } else if (p.thumbnail) {
+    thumbContent = `<img src="${p.thumbnail}" alt="${p.title}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">`;
+  } else {
+    thumbContent = `<div class="thumb-bg" style="background:${p.color};position:absolute;inset:0;"></div>`;
+  }
+
   a.innerHTML = `
-    <div class="${wide ? 'thumb-wide' : 'thumb-std'}">
-      <div class="thumb-bg" style="background:${p.color};"></div>
-    </div>
+    <div class="${wide ? 'thumb-wide' : 'thumb-std'}" style="position:relative;">${thumbContent}</div>
     ${hideInfo ? '' : `<div class="card-info">
       <p class="card-meta">${p.category}</p>
       <h2 class="card-title">${p.title}</h2>
@@ -307,7 +324,7 @@ document.querySelectorAll('.cat-btn').forEach(btn => {
   });
 });
 
-renderProjects('all');
+loadData();
 
 let lastY = 0;
 const nav = document.getElementById('mainNav');

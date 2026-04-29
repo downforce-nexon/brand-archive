@@ -28,12 +28,19 @@ function parseBlocks(blocks) {
       const text = block[type].rich_text.map(t => t.plain_text).join('');
       if (text && current) current.body += (current.body ? '\n' : '') + text;
 
+    } else if (type === 'video') {
+      const url = block.video.type === 'file'
+        ? block.video.file.url
+        : block.video.external.url;
+      if (current) current.images.push({ type: 'video', url });
+      else sections.push({ title: '', body: '', images: [{ type: 'video', url }] });
+
     } else if (type === 'image') {
       const url = block.image.type === 'file'
         ? block.image.file.url
         : block.image.external.url;
-      if (current) current.images.push(url);
-      else sections.push({ title: '', body: '', images: [url] });
+      if (current) current.images.push({ type: 'image', url });
+      else sections.push({ title: '', body: '', images: [{ type: 'image', url }] });
     }
   }
 
@@ -91,6 +98,7 @@ async function main() {
     const sections = parseBlocks(blocks);
 
     const thumbnail = getProp(page, 'Thumbnail');
+    const thumbnailVideo = getProp(page, 'Thumbnail Video');
 
     projects.push({
       id,
@@ -103,6 +111,7 @@ async function main() {
       tags: getProp(page, 'Tags'),
       color: getProp(page, 'Color') || '#D8D8D8',
       thumbnail: thumbnail[0] || '',
+      thumbnailVideo: thumbnailVideo[0] || '',
       sections, // 본문+이미지 섹션 배열
     });
   }
