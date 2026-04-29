@@ -1,0 +1,196 @@
+{
+  "projects": [
+    {
+      "id": "351dadb56b2f815988a3e0f56a421326",
+      "title": "넥슨 브랜드 아이덴티티 리뉴얼",
+      "category": "Branding",
+      "featured": true,
+      "product": "메이플스토리",
+      "year": "2026",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D8D8D8",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "branding",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81e89b5ec22ee9b77cb6",
+      "title": "메이플스토리 20주년 캠페인",
+      "category": "Branding",
+      "featured": true,
+      "product": "메이플스토리",
+      "year": "2024",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D4D4D4",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "branding",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81c593d0dd5f1085034b",
+      "title": "넥슨 아레나 공간 브랜딩",
+      "category": "Graphic",
+      "featured": true,
+      "product": "넥슨 아레나",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#DADADA",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "graphic",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f817daf05d65f1c0110f0",
+      "title": "던전앤파이터 브랜드 캠페인",
+      "category": "Film",
+      "featured": false,
+      "product": "던전앤파이터",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D6D6D6",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "film"
+      ]
+    },
+    {
+      "id": "351dadb56b2f8121827ed7080285f681",
+      "title": "넥슨 디지털 가이드라인 시스템",
+      "category": "Graphic",
+      "featured": false,
+      "product": "넥슨 코리아",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#DCDCDC",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "graphic"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81c186c9e30edfa375f4",
+      "title": "넥슨 코리아 채용 브랜딩",
+      "category": "Branding",
+      "featured": false,
+      "product": "넥슨 코리아",
+      "year": "2022",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D2D2D2",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "branding"
+      ]
+    },
+    {
+      "id": "351dadb56b2f8134a53df7cad639a2f4",
+      "title": "지스타 2023 브랜드 경험",
+      "category": "Graphic",
+      "featured": true,
+      "product": "넥슨 코리아",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D8DAD6",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "graphic",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81679835dc65f2f4d129",
+      "title": "메이플스토리 월드컵 캠페인",
+      "category": "Film",
+      "featured": false,
+      "product": "메이플스토리",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Campaign",
+        "Film"
+      ],
+      "color": "#DAD8D8",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "film"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81b797bbfb92f99c0e86",
+      "title": "넥슨 연간 리포트 디자인",
+      "category": "Graphic",
+      "featured": false,
+      "product": "넥슨 코리아",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Visual System",
+        "Digital"
+      ],
+      "color": "#D8D8DA",
+      "thumbnail": "",
+      "sections": [],
+      "filter": [
+        "graphic"
+      ]
+    }
+  ]
+}
