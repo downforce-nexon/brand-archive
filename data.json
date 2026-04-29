@@ -16,7 +16,44 @@
       ],
       "color": "#D8D8D8",
       "thumbnail": "",
-      "sections": [],
+      "thumbnailVideo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/eab16d82-dd07-497b-8a85-a54160fd1340/NDC_DID_002_12s.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666PH4CZNG%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T094020Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJGMEQCIG9NQidgyVH3EJNhMyFEL8sXPjiIX6Hq2UdpTFFc3wc5AiBRVzMk9AkI%2BmGv3zaKSpkP%2F1HA8Yp2buQtTNRAxOl44SqIBAjy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2BiGeT%2FIBHTr6IGWIKtwDKqJSnI0xpOLPYyG8KzYYwwYyNew1LJJ%2FfQQ4xSFzL6aJLyNiPLFjeCtvelhxCW6uk9Fz%2Fu31XgZXflrAUVinF9PbnK6f60dSwhT1qdxiyIj8eOaPgtxsDLGK9cOjpsvs8vhzm46K6KtXgm5b%2FgLD8cfDN%2B6Kei7saoZniLaYIub46uxkGVJjgwow30OOIEXGHHbb%2FN7w6%2B3FgpBTtRZF2bOKCZ7mFDIxdvZD433MRhQKjj%2FGqHe6g5AR%2BS4XMaGJzLdqg2b9mR3K5sU0s2S8WCNJ8cD2qrwiD%2FueL0ycSWKrt066tOtvi24q3g0hxaeCFTosUF4c%2BlnEy0LsU3cT%2B9fZQwQOoOQgeCEglgMO2ac%2FwbSKhQzTxjb3h0o0Wx6sr98DGMrqgz47mbTR7nyvyRR5DhYqOKgH61FEvORs4J0%2FhKjYZsmrQYCUaQJk7mANhdwK59Rbs%2FHSd69ytpdsLFbqFvCHt5eCduq9Z0SKnwKdN1ufqLTOxRSHaxayJlfNTliM6vGahdKaOp6QbEC6NofJjFJNj7DIom5HrnOHAoOZOKaJ0S305rNbXC8S91G0PGJIPt6jkQ3fLQgowoTZW6a8L60%2B%2Fifx5mfinxRo7L99%2FGfcb%2FQJD5TGtPEwlI%2FHzwY6pgH69xLB%2BqodtdEaaGB3mc0Tqs9WK8Peo7WVktOsXfFGvG3yi7Fk6sWlCxqf6xPwFKJSQEEvqbt%2BCFz6uO%2BPRk92REgUeAIlV7msen74uRzqg3F0yGBMaPxCKz9HiOmvBHfljKrSHTJPIGatbQ%2FJuyCF6jeXStIKVdAuNpPVqrOzhR7Ktwk%2BM3iNntYC8fCAwxnN5eAgHiriw1dDxgl3vpnxfLGwJB%2Bu&X-Amz-Signature=120d33a4ba8ff3ea9d96e5b62ae28c346ccd6c8b59b3bd2e923049074c365e43&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "sections": [
+        {
+          "title": "",
+          "body": "",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/8f10ace7-784b-4ed7-bb58-d5b69eb41307/Dimensioal_Shift.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662BJZUF7P%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T094021Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQCbXBQP%2FzpniaZeEwwZBzg2Wqloc0urlfaepRinWVkzQAIhANFVA963K7Iwe9LufyP1LLPtenOC%2BX833P1BVQltIvB9KogECPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzS8w%2FQZyS81fCUPuEq3APhMAtTWs4KcXC27FPPNbZB3qzv77wcrB7babNq6C4XPZvDRlSCgaHbwJ3q%2F%2FkP3bD%2FwV94m4cKWhib1MJHxO0ZWD0sbu5rYvP9WoGVW8iBEnV%2F8KvYAV%2F43Zml%2BuItDpa2tNvka96fG%2BFapb7OgQl%2BcWS8WaxyYy2W87MsR8EStrPO56RpbtuOyUlNqrdmz7mRgzW1KMk9ZBgEJdl%2B5h3zkeWvZEeyix7Yf0OqBBTLInhnkmLQhjyiD%2Fk%2BndpM%2BV62YZxxHw4UlISSsB1r1cg0RU6mqZqWpDZZAiecAXnbPsiAxmtjW%2BAp%2FGl77yajxZJdrpqhP4G6QWs%2Bl8bGxrYB%2BtPx1RJGJUv5F9EcHe%2BMnY93pXJvEHiqzJuIC8nF88VJb9kn8ywbWCrEyOC13ImWNi7n6Ca7g%2Bh%2BmeHdZj3zm3IRv9c3BWHICzkrVYTkFqhTyGDd%2FMqCNYoigG%2B1MS9iYTAwSdzTUUrT4q9lSzTceIH2HG6imzRQvdJT08QICH%2Btt72rpgUNbB5wqy%2ByCujFItxQAcshoWfY0Bsmc7IW%2FAts1KjevrXBaAPF%2FHUEIzXSxlwrqCOOyUI%2BWzuwUB%2BFPUCWlsdhRMr%2B8XHWJzmd%2FUCSWT9a438OPxvB0jDRjsfPBjqkAc%2B1WlLFP5Ji%2FITJYvArT1u4%2Bo3M89pQSIpweyV9NLrh7VSCjkh%2BxYKjLvyYFrIoHLLRwP1U4FPUhJU3kYn9XKKxtmiSNf5Mj0D4dFKz7i6NERN9tu1ZpfXHk6SCgWI4mdbYwFefVzW%2FX3Pvwx9zq4qdy2tpurJUuLQzAIlY%2BvMCK9kBtvG8KIyVH9ZF8mos7lpGypd9oR0QNcxKIQA4PktOkYer&X-Amz-Signature=691411839a9059a69b7f9a46085df6698b3b875121aaefe227161a1b3c17619a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "body": "",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/08725fda-76b5-4337-a67d-0bea4ddeac3c/Frame_1321322711.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662BJZUF7P%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T094021Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQCbXBQP%2FzpniaZeEwwZBzg2Wqloc0urlfaepRinWVkzQAIhANFVA963K7Iwe9LufyP1LLPtenOC%2BX833P1BVQltIvB9KogECPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzS8w%2FQZyS81fCUPuEq3APhMAtTWs4KcXC27FPPNbZB3qzv77wcrB7babNq6C4XPZvDRlSCgaHbwJ3q%2F%2FkP3bD%2FwV94m4cKWhib1MJHxO0ZWD0sbu5rYvP9WoGVW8iBEnV%2F8KvYAV%2F43Zml%2BuItDpa2tNvka96fG%2BFapb7OgQl%2BcWS8WaxyYy2W87MsR8EStrPO56RpbtuOyUlNqrdmz7mRgzW1KMk9ZBgEJdl%2B5h3zkeWvZEeyix7Yf0OqBBTLInhnkmLQhjyiD%2Fk%2BndpM%2BV62YZxxHw4UlISSsB1r1cg0RU6mqZqWpDZZAiecAXnbPsiAxmtjW%2BAp%2FGl77yajxZJdrpqhP4G6QWs%2Bl8bGxrYB%2BtPx1RJGJUv5F9EcHe%2BMnY93pXJvEHiqzJuIC8nF88VJb9kn8ywbWCrEyOC13ImWNi7n6Ca7g%2Bh%2BmeHdZj3zm3IRv9c3BWHICzkrVYTkFqhTyGDd%2FMqCNYoigG%2B1MS9iYTAwSdzTUUrT4q9lSzTceIH2HG6imzRQvdJT08QICH%2Btt72rpgUNbB5wqy%2ByCujFItxQAcshoWfY0Bsmc7IW%2FAts1KjevrXBaAPF%2FHUEIzXSxlwrqCOOyUI%2BWzuwUB%2BFPUCWlsdhRMr%2B8XHWJzmd%2FUCSWT9a438OPxvB0jDRjsfPBjqkAc%2B1WlLFP5Ji%2FITJYvArT1u4%2Bo3M89pQSIpweyV9NLrh7VSCjkh%2BxYKjLvyYFrIoHLLRwP1U4FPUhJU3kYn9XKKxtmiSNf5Mj0D4dFKz7i6NERN9tu1ZpfXHk6SCgWI4mdbYwFefVzW%2FX3Pvwx9zq4qdy2tpurJUuLQzAIlY%2BvMCK9kBtvG8KIyVH9ZF8mos7lpGypd9oR0QNcxKIQA4PktOkYer&X-Amz-Signature=d26da37614af5dc891628222fc050e25aa28700690b844234a3c3ba0381d2459&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "Design",
+          "body": "브랜드의 시각적 언어를 구축하는 과정에서 일관성과 유연성 사이의 균형을 중심으로 작업을 전개했습니다. 각 접점에서 동일한 브랜드 감성을 전달하면서도, 맥락에 따라 다양하게 응용될 수 있는 시스템을 설계했습니다.",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/6d79be23-ffbc-4f41-bc6b-2008fef040e1/NDC_Graphic_Motif_A-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662BJZUF7P%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T094021Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQCbXBQP%2FzpniaZeEwwZBzg2Wqloc0urlfaepRinWVkzQAIhANFVA963K7Iwe9LufyP1LLPtenOC%2BX833P1BVQltIvB9KogECPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzS8w%2FQZyS81fCUPuEq3APhMAtTWs4KcXC27FPPNbZB3qzv77wcrB7babNq6C4XPZvDRlSCgaHbwJ3q%2F%2FkP3bD%2FwV94m4cKWhib1MJHxO0ZWD0sbu5rYvP9WoGVW8iBEnV%2F8KvYAV%2F43Zml%2BuItDpa2tNvka96fG%2BFapb7OgQl%2BcWS8WaxyYy2W87MsR8EStrPO56RpbtuOyUlNqrdmz7mRgzW1KMk9ZBgEJdl%2B5h3zkeWvZEeyix7Yf0OqBBTLInhnkmLQhjyiD%2Fk%2BndpM%2BV62YZxxHw4UlISSsB1r1cg0RU6mqZqWpDZZAiecAXnbPsiAxmtjW%2BAp%2FGl77yajxZJdrpqhP4G6QWs%2Bl8bGxrYB%2BtPx1RJGJUv5F9EcHe%2BMnY93pXJvEHiqzJuIC8nF88VJb9kn8ywbWCrEyOC13ImWNi7n6Ca7g%2Bh%2BmeHdZj3zm3IRv9c3BWHICzkrVYTkFqhTyGDd%2FMqCNYoigG%2B1MS9iYTAwSdzTUUrT4q9lSzTceIH2HG6imzRQvdJT08QICH%2Btt72rpgUNbB5wqy%2ByCujFItxQAcshoWfY0Bsmc7IW%2FAts1KjevrXBaAPF%2FHUEIzXSxlwrqCOOyUI%2BWzuwUB%2BFPUCWlsdhRMr%2B8XHWJzmd%2FUCSWT9a438OPxvB0jDRjsfPBjqkAc%2B1WlLFP5Ji%2FITJYvArT1u4%2Bo3M89pQSIpweyV9NLrh7VSCjkh%2BxYKjLvyYFrIoHLLRwP1U4FPUhJU3kYn9XKKxtmiSNf5Mj0D4dFKz7i6NERN9tu1ZpfXHk6SCgWI4mdbYwFefVzW%2FX3Pvwx9zq4qdy2tpurJUuLQzAIlY%2BvMCK9kBtvG8KIyVH9ZF8mos7lpGypd9oR0QNcxKIQA4PktOkYer&X-Amz-Signature=b6803781615b3d1f06430dd7dc5845148a9181330e5f8797bb0b94c8847c3b58&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "Outcome",
+          "body": "완성된 브랜드 시스템은 온·오프라인 전 접점에 일관되게 적용되었으며, 넥슨 브랜드의 새로운 기준점이 되었습니다.",
+          "images": []
+        }
+      ],
       "filter": [
         "branding",
         "all"
@@ -37,7 +74,8 @@
         "Visual System"
       ],
       "color": "#D4D4D4",
-      "thumbnail": "",
+      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/72e4d68f-99ae-4857-9fd5-0e49167d8bfb/Frame_1321316909.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666PH4CZNG%2F20260429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260429T094020Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJGMEQCIG9NQidgyVH3EJNhMyFEL8sXPjiIX6Hq2UdpTFFc3wc5AiBRVzMk9AkI%2BmGv3zaKSpkP%2F1HA8Yp2buQtTNRAxOl44SqIBAjy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2BiGeT%2FIBHTr6IGWIKtwDKqJSnI0xpOLPYyG8KzYYwwYyNew1LJJ%2FfQQ4xSFzL6aJLyNiPLFjeCtvelhxCW6uk9Fz%2Fu31XgZXflrAUVinF9PbnK6f60dSwhT1qdxiyIj8eOaPgtxsDLGK9cOjpsvs8vhzm46K6KtXgm5b%2FgLD8cfDN%2B6Kei7saoZniLaYIub46uxkGVJjgwow30OOIEXGHHbb%2FN7w6%2B3FgpBTtRZF2bOKCZ7mFDIxdvZD433MRhQKjj%2FGqHe6g5AR%2BS4XMaGJzLdqg2b9mR3K5sU0s2S8WCNJ8cD2qrwiD%2FueL0ycSWKrt066tOtvi24q3g0hxaeCFTosUF4c%2BlnEy0LsU3cT%2B9fZQwQOoOQgeCEglgMO2ac%2FwbSKhQzTxjb3h0o0Wx6sr98DGMrqgz47mbTR7nyvyRR5DhYqOKgH61FEvORs4J0%2FhKjYZsmrQYCUaQJk7mANhdwK59Rbs%2FHSd69ytpdsLFbqFvCHt5eCduq9Z0SKnwKdN1ufqLTOxRSHaxayJlfNTliM6vGahdKaOp6QbEC6NofJjFJNj7DIom5HrnOHAoOZOKaJ0S305rNbXC8S91G0PGJIPt6jkQ3fLQgowoTZW6a8L60%2B%2Fifx5mfinxRo7L99%2FGfcb%2FQJD5TGtPEwlI%2FHzwY6pgH69xLB%2BqodtdEaaGB3mc0Tqs9WK8Peo7WVktOsXfFGvG3yi7Fk6sWlCxqf6xPwFKJSQEEvqbt%2BCFz6uO%2BPRk92REgUeAIlV7msen74uRzqg3F0yGBMaPxCKz9HiOmvBHfljKrSHTJPIGatbQ%2FJuyCF6jeXStIKVdAuNpPVqrOzhR7Ktwk%2BM3iNntYC8fCAwxnN5eAgHiriw1dDxgl3vpnxfLGwJB%2Bu&X-Amz-Signature=ef84a54732c3cf0926b72211806eda344952faa3960ae2203815767a23892e19&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "branding",
@@ -60,6 +98,7 @@
       ],
       "color": "#DADADA",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic",
@@ -82,6 +121,7 @@
       ],
       "color": "#D6D6D6",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "film"
@@ -103,6 +143,7 @@
       ],
       "color": "#DCDCDC",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic"
@@ -124,6 +165,7 @@
       ],
       "color": "#D2D2D2",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "branding"
@@ -145,6 +187,7 @@
       ],
       "color": "#D8DAD6",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic",
@@ -167,6 +210,7 @@
       ],
       "color": "#DAD8D8",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "film"
@@ -187,6 +231,7 @@
       ],
       "color": "#D8D8DA",
       "thumbnail": "",
+      "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic"
