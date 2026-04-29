@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B Archive — BX디자인팀</title>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: 'NEXONCompany';
+    src: url('data:font/woff2;base64,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') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0A0A0A;
+    --white: #ffffff;
+    --gray-1: #3A3A3A;
+    --gray-2: #7A7A7A;
+    --gray-3: #B8B8B8;
+    --gray-4: #E2E2E0;
+    --gray-5: #D8D8D8;
+    --nav-h: 72px;
+    --edge: 48px;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    background: var(--white);
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--edge);
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px);
+    z-index: 200;
+    transition: transform 0.35s cubic-bezier(0.25,0.46,0.45,0.94);
+  }
+  nav.hidden { transform: translateY(-100%); }
+
+  .nav-brand {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    text-decoration: none;
+  }
+  .nav-ba svg {
+    height: 28px;
+    width: auto;
+    display: block;
+  }
+
+  /* 우측 메뉴 */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+  .nav-links a {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
+    text-decoration: none;
+    padding: 5px 14px;
+    letter-spacing: 0.02em;
+    transition: font-weight 0.1s;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links a::after {
+    content: attr(data-text);
+    font-weight: 700;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .nav-links a:last-child { padding-right: 0; }
+  .nav-links a:hover { font-weight: 700; }
+
+  /* ── CATEGORY BAR ── */
+  .cat-bar {
+    position: sticky;
+    top: var(--nav-h);
+    z-index: 100;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px);
+    padding: 36px 13% 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.35s cubic-bezier(0.25,0.46,0.45,0.94);
+  }
+  .cat-bar.nav-hidden { transform: translateY(calc(-1 * var(--nav-h))); }
+  .cat-bar.sticky-mode { padding: 22px 13%; }
+
+  .cat-btn {
+    background: none;
+    border: none;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-synthesis: none;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: var(--gray-3);
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+  .cat-btn:hover { color: var(--gray-1); }
+  .cat-btn.active { color: var(--black); }
+
+  /* ── IMAGE GRID ── */
+  .grid-wrap {
+    padding: 24px 13% 120px;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .project-list.spaced {
+    gap: 48px;
+  }
+  .row-single { display: grid; grid-template-columns: 1fr; }
+  .row-double { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+  .project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .project-card.visible { opacity: 1; transform: translateY(0); }
+
+  /* Featured 첫 번째: wide */
+  .thumb-wide {
+    width: 100%; padding-bottom: 62%;
+    position: relative; background: var(--gray-5); overflow: hidden;
+  }
+  /* 나머지 모두 동일 비율 */
+  .thumb-std {
+    width: 100%; padding-bottom: 75%;
+    position: relative; background: var(--gray-5); overflow: hidden;
+  }
+  .thumb-bg {
+    position: absolute; inset: 0;
+    transition: filter 0.3s;
+  }
+
+  .card-info { padding: 20px 0 8px; }
+  .card-meta {
+    font-size: 11px; font-weight: 400;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--gray-3); margin-bottom: 6px;
+  }
+  .card-title {
+    font-size: 14px; font-weight: 400;
+    line-height: 1.45; color: var(--black);
+    transition: color 0.2s;
+  }
+  .project-card:hover .thumb-bg { filter: brightness(0.95); }
+  .project-card:hover .card-title { color: var(--gray-2); }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--gray-4);
+    padding: 36px var(--edge);
+    display: flex;
+    justify-content: space-between;
+  }
+  footer span { font-size: 12px; color: var(--gray-3); }
+
+  @media (max-width: 768px) {
+    :root { --edge: 24px; --img-edge: 24px; }
+    .nav-b, .nav-archive { font-size: 22px; }
+    .cat-btn { font-size: 13px; }
+    .row-double { grid-template-columns: 1fr; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="mainNav">
+  <a class="nav-brand" href="index.html">
+    <span class="nav-ba"><svg width="55" height="32" viewBox="0 0 55 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_idx)"><path d="M20.616 7.2V13.512L18.528 15.6L20.616 17.688V24H1.896V7.2H20.616ZM16.104 20.448V17.376H6.408V20.448H16.104ZM16.104 13.824V10.776H6.408V13.824H16.104ZM25.7695 6.86719L32.1562 24H28.9102L22.5234 6.86719H25.7695ZM34.1929 7.2H52.9129V24H48.4009V18.336H38.7049V24H34.1929V7.2ZM48.4009 14.784V10.776H38.7049V14.784H48.4009Z" fill="#0A0A0A"/></g><defs><clipPath id="clip0_idx"><rect width="55" height="32" fill="white"/></clipPath></defs></svg></span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" data-text="Work">Work</a>
+    <a href="#" data-text="About">About</a>
+  </div>
+</nav>
+
+<div class="cat-bar" id="catBar">
+  <button class="cat-btn active" data-filter="all">FEATURED</button>
+  <button class="cat-btn" data-filter="branding">BRANDING</button>
+  <button class="cat-btn" data-filter="graphic">GRAPHIC</button>
+  <button class="cat-btn" data-filter="film">FILM</button>
+</div>
+
+<div class="grid-wrap">
+  <div class="project-list" id="projectList"></div>
+</div>
+
+<footer>
+  <span>LOGOS REPRESENT, BRANDS HAPPEN.</span>
+  <span>© Nexon Korea Corp.</span>
+</footer>
+
+<script>
+const projects = [
+  { id:1, title:"넥슨 브랜드 아이덴티티 리뉴얼",   category:"Branding", filter:["all","branding"], color:"#D8D8D8" },
+  { id:2, title:"메이플스토리 20주년 캠페인",        category:"Branding", filter:["all","branding"], color:"#D4D4D4" },
+  { id:3, title:"넥슨 아레나 공간 브랜딩",           category:"Graphic",  filter:["all","graphic"],  color:"#DADADA" },
+  { id:4, title:"던전앤파이터 브랜드 캠페인",        category:"Film",     filter:["film"],           color:"#D6D6D6" },
+  { id:5, title:"넥슨 디지털 가이드라인 시스템",     category:"Graphic",  filter:["graphic"],        color:"#DCDCDC" },
+  { id:6, title:"넥슨 코리아 채용 브랜딩",           category:"Branding", filter:["branding"],       color:"#D2D2D2" },
+  { id:7, title:"지스타 2023 브랜드 경험",           category:"Graphic",  filter:["all","graphic"],  color:"#D8DAD6" },
+  { id:8, title:"메이플스토리 월드컵 캠페인",        category:"Film",     filter:["film"],           color:"#DAD8D8" },
+  { id:9, title:"넥슨 연간 리포트 디자인",           category:"Graphic",  filter:["graphic"],        color:"#D8D8DA" },
+];
+
+function renderProjects(filter) {
+  const list = document.getElementById('projectList');
+  const filtered = projects.filter(p => p.filter.includes(filter));
+  list.innerHTML = '';
+  if (!filtered.length) return;
+
+  // Featured: 기존 간격 / 나머지: 넓은 간격
+  if (filter === 'all') {
+    list.classList.remove('spaced');
+  } else {
+    list.classList.add('spaced');
+  }
+
+  // FEATURED: 첫 번째 wide + 나머지 2열
+  // 나머지 필터: 모두 2열
+  if (filter === 'all') {
+    const r1 = document.createElement('div');
+    r1.className = 'row-single';
+    r1.appendChild(makeCard(filtered[0], true, true));
+    list.appendChild(r1);
+
+    for (let i = 1; i < filtered.length; i += 2) {
+      const row = document.createElement('div');
+      row.className = 'row-double';
+      row.appendChild(makeCard(filtered[i], false, true));
+      if (filtered[i+1]) row.appendChild(makeCard(filtered[i+1], false, true));
+      list.appendChild(row);
+    }
+  } else {
+    // Branding / Graphic / Film: 첫 번째부터 모두 2열
+    for (let i = 0; i < filtered.length; i += 2) {
+      const row = document.createElement('div');
+      row.className = 'row-double';
+      row.appendChild(makeCard(filtered[i], false));
+      if (filtered[i+1]) row.appendChild(makeCard(filtered[i+1], false));
+      list.appendChild(row);
+    }
+  }
+
+  requestAnimationFrame(() => {
+    document.querySelectorAll('.project-card').forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), i * 60);
+    });
+  });
+}
+
+function makeCard(p, wide, hideInfo = false) {
+  const a = document.createElement('a');
+  a.className = 'project-card';
+  a.href = `project.html?id=${p.id}`;
+  a.innerHTML = `
+    <div class="${wide ? 'thumb-wide' : 'thumb-std'}">
+      <div class="thumb-bg" style="background:${p.color};"></div>
+    </div>
+    ${hideInfo ? '' : `<div class="card-info">
+      <p class="card-meta">${p.category}</p>
+      <h2 class="card-title">${p.title}</h2>
+    </div>`}`;
+  return a;
+}
+
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderProjects(btn.dataset.filter);
+  });
+});
+
+renderProjects('all');
+
+let lastY = 0;
+const nav = document.getElementById('mainNav');
+const catBar = document.getElementById('catBar');
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  if (y > lastY && y > 80) {
+    nav.classList.add('hidden');
+    catBar.classList.add('nav-hidden');
+  } else {
+    nav.classList.remove('hidden');
+    catBar.classList.remove('nav-hidden');
+  }
+  // sticky-mode: cat-bar가 상단에 붙었을 때 (nav가 숨겨진 상태)
+  if (y > 80) {
+    catBar.classList.add('sticky-mode');
+  } else {
+    catBar.classList.remove('sticky-mode');
+  }
+  lastY = y;
+}, { passive: true });
+</script>
+</body>
+</html>

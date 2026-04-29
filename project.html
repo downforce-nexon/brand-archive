@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프로젝트 — BX디자인팀</title>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: 'NEXONCompany';
+    src: url('data:font/woff2;base64,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') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0A0A0A;
+    --white: #ffffff;
+    --gray-1: #3A3A3A;
+    --gray-2: #7A7A7A;
+    --gray-3: #B8B8B8;
+    --gray-4: #E2E2E0;
+    --gray-5: #F0F0EE;
+    --nav-h: 72px;
+    --edge: 48px;
+  }
+
+  body {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    background: var(--white);
+    color: var(--black);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV (index.html과 동일) ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--edge);
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px);
+    z-index: 200;
+    transition: transform 0.35s cubic-bezier(0.25,0.46,0.45,0.94);
+  }
+  nav.hidden { transform: translateY(-100%); }
+
+  .nav-brand {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    text-decoration: none;
+  }
+  .nav-ba svg {
+    height: 28px;
+    width: auto;
+    display: block;
+  }
+
+  /* 우측 메뉴 — index.html과 동일 */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+  .nav-links a {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
+    text-decoration: none;
+    padding: 5px 14px;
+    letter-spacing: 0.02em;
+    transition: font-weight 0.1s;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-links a::after {
+    content: attr(data-text);
+    font-weight: 700;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .nav-links a:last-child { padding-right: 0; }
+  .nav-links a:hover { font-weight: 700; }
+
+  /* ── PROJECT HEADER ── */
+  .project-header {
+    padding: 120px var(--edge) 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 80px;
+  }
+
+  .project-title {
+    font-size: clamp(28px, 3.5vw, 48px);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    color: var(--black);
+  }
+
+  .project-meta { padding-top: 8px; }
+
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--gray-4);
+  }
+  .meta-row:first-child { padding-top: 0; }
+  .meta-row:last-child { border-bottom: none; }
+
+  .meta-label {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray-3);
+  }
+  .meta-value { font-size: 14px; font-weight: 400; color: var(--black); }
+
+  /* ── DESCRIPTION ── */
+  .project-desc-section {
+    padding: 80px var(--edge);
+    display: flex;
+    justify-content: center;
+  }
+  .project-desc-inner {
+    width: 100%;
+    max-width: 560px;
+    text-align: left;
+  }
+  .project-desc-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.9;
+    color: var(--black);
+    margin-bottom: 0;
+    word-break: keep-all;
+  }
+  .project-desc {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--gray-1);
+    word-break: keep-all;
+  }
+
+  /* ── GALLERY ── */
+  .gallery {
+    padding: 0 var(--edge) 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .gallery-row { display: grid; gap: 2px; }
+  .gallery-row.col-1 { grid-template-columns: 1fr; }
+  .gallery-row.col-2 { grid-template-columns: 1fr 1fr; }
+  .gallery-row.col-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+  .gallery-item {
+    background: var(--gray-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+  .gallery-item.tall { aspect-ratio: 3/4; }
+  .gallery-placeholder {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray-3);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--gray-4);
+    padding: 36px var(--edge);
+    display: flex;
+    justify-content: space-between;
+  }
+  footer span { font-size: 12px; color: var(--gray-3); }
+
+  /* ── CREDITS ── */
+  .credits-section {
+    padding: 80px var(--edge) 64px;
+    text-align: center;
+  }
+  .credits-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 16px;
+  }
+  .credits-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-2);
+    line-height: 1.8;
+  }
+
+  /* ── TAGS ── */
+  .tags-section {
+    padding: 0 var(--edge) 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 7px 16px;
+    border: 1px solid var(--gray-4);
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray-1);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  /* ── RELATED PROJECTS ── */
+  .related-section {
+    padding: 80px var(--edge) 100px;
+  }
+  .related-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .related-title {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--black);
+  }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .related-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .related-thumb {
+    width: 100%;
+    padding-bottom: 66%;
+    position: relative;
+    background: var(--gray-5);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .related-thumb .thumb-bg {
+    position: absolute;
+    inset: 0;
+    transition: filter 0.3s, transform 0.55s cubic-bezier(0.25,0.46,0.45,0.94);
+  }
+  .related-card:hover .thumb-bg { filter: brightness(0.95); transform: scale(1.03); }
+  .related-card-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 1.4;
+    transition: color 0.2s;
+  }
+  .related-card-meta {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray-3);
+    margin-bottom: 6px;
+  }
+  .related-card:hover .related-card-title { color: var(--gray-2); }
+
+  @media (max-width: 768px) {
+    .related-grid { grid-template-columns: 1fr; }
+  }
+
+  /* FADE IN */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+  @media (max-width: 768px) {
+    :root { --edge: 24px; }
+    .project-header { grid-template-columns: 1fr; gap: 48px; }
+    .gallery-row.col-2, .gallery-row.col-3 { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="mainNav">
+  <a class="nav-brand" href="index.html">
+    <span class="nav-ba"><svg width="55" height="32" viewBox="0 0 55 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_proj)"><path d="M20.616 7.2V13.512L18.528 15.6L20.616 17.688V24H1.896V7.2H20.616ZM16.104 20.448V17.376H6.408V20.448H16.104ZM16.104 13.824V10.776H6.408V13.824H16.104ZM25.7695 6.86719L32.1562 24H28.9102L22.5234 6.86719H25.7695ZM34.1929 7.2H52.9129V24H48.4009V18.336H38.7049V24H34.1929V7.2ZM48.4009 14.784V10.776H38.7049V14.784H48.4009Z" fill="#0A0A0A"/></g><defs><clipPath id="clip0_proj"><rect width="55" height="32" fill="white"/></clipPath></defs></svg></span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" data-text="Work">Work</a>
+    <a href="#" data-text="About">About</a>
+  </div>
+</nav>
+
+<div class="project-header">
+  <h1 class="project-title fade-up" id="projectTitle">프로젝트 제목</h1>
+  <div class="project-meta fade-up">
+    <div class="meta-row">
+      <span class="meta-label">Category</span>
+      <span class="meta-value" id="metaCategory">—</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Product</span>
+      <span class="meta-value" id="metaProduct">—</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Team</span>
+      <span class="meta-value" id="metaTeam">BX디자인팀</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Year</span>
+      <span class="meta-value" id="metaYear">—</span>
+    </div>
+  </div>
+</div>
+
+<section class="gallery" style="padding-top:0;">
+  <div class="gallery-row col-1">
+    <div class="gallery-item" style="aspect-ratio:21/9;">
+      <span class="gallery-placeholder">Image 01</span>
+    </div>
+  </div>
+</section>
+
+<section class="project-desc-section">
+  <div class="project-desc-inner fade-up">
+    <p class="project-desc-title" id="projectDescTitle">Overview</p>
+    <p class="project-desc" id="projectDesc"></p>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="gallery-row col-1">
+    <div class="gallery-item" style="aspect-ratio:21/9;">
+      <span class="gallery-placeholder">Image 02</span>
+    </div>
+  </div>
+</section>
+
+<section class="project-desc-section">
+  <div class="project-desc-inner">
+    <p class="project-desc-title">Design</p>
+    <p class="project-desc">브랜드의 시각적 언어를 구축하는 과정에서 일관성과 유연성 사이의 균형을 중심으로 작업을 전개했습니다. 각 접점에서 동일한 브랜드 감성을 전달하면서도, 맥락에 따라 다양하게 응용될 수 있는 시스템을 설계했습니다.</p>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="gallery-row col-1">
+    <div class="gallery-item" style="aspect-ratio:21/9;">
+      <span class="gallery-placeholder">Image 03</span>
+    </div>
+  </div>
+</section>
+
+<section class="project-desc-section">
+  <div class="project-desc-inner">
+    <p class="project-desc-title">Outcome</p>
+    <p class="project-desc">완성된 브랜드 시스템은 온·오프라인 전 접점에 일관되게 적용되었으며, 넥슨 브랜드의 새로운 기준점이 되었습니다.</p>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="gallery-row col-1">
+    <div class="gallery-item" style="aspect-ratio:21/9;">
+      <span class="gallery-placeholder">Image 04</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- CREDITS -->
+<section class="credits-section">
+  <p class="credits-label">Credits</p>
+  <p class="credits-text" id="projectCredits">—</p>
+</section>
+
+<!-- TAGS -->
+<div class="tags-section" id="projectTags"></div>
+
+<!-- RELATED PROJECTS -->
+<section class="related-section">
+  <div class="related-header">
+    <h2 class="related-title">Other Projects</h2>
+  </div>
+  <div class="related-grid" id="relatedGrid"></div>
+</section>
+
+<script>
+const projects = [
+  { id:1, title:"넥슨 브랜드 아이덴티티 리뉴얼", category:"Branding", product:"메이플스토리",  team:"BX디자인팀", year:"2026", desc:"넥슨의 브랜드 체계를 전면 재정립하는 작업입니다. 게임 회사를 넘어 문화를 만드는 기업으로서의 넥슨 정체성을 시각 언어로 구축했습니다.", color:"#E8E6E0", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:2, title:"메이플스토리 20주년 캠페인",    category:"Branding", product:"메이플스토리", team:"BX디자인팀", year:"2024", desc:"메이플스토리 20주년을 맞아 유저와 함께한 시간을 되돌아보는 감성 캠페인입니다.", color:"#E2E4E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:3, title:"넥슨 아레나 공간 브랜딩",       category:"Graphic",  product:"넥슨 아레나",  team:"BX디자인팀", year:"2023", desc:"넥슨 아레나의 공간 아이덴티티와 사이니지 시스템을 디자인했습니다.", color:"#E6E8E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:4, title:"던전앤파이터 브랜드 캠페인",    category:"Film",     product:"던전앤파이터", team:"BX디자인팀", year:"2023", desc:"던전앤파이터의 브랜드 캠페인 크리에이티브 방향성을 수립하고 실행했습니다.", color:"#E8E2E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:5, title:"넥슨 디지털 가이드라인 시스템", category:"Graphic",  product:"넥슨 코리아",  team:"BX디자인팀", year:"2023", desc:"디지털 접점 전반에 적용되는 브랜드 가이드라인 시스템을 구축했습니다.", color:"#E4E2E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:6, title:"넥슨 코리아 채용 브랜딩",       category:"Branding", product:"넥슨 코리아",  team:"BX디자인팀", year:"2022", desc:"넥슨의 채용 브랜드 아이덴티티와 커뮤니케이션 체계를 수립했습니다.", color:"#E8E6E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+  { id:7, title:"지스타 2023 브랜드 경험",       category:"Graphic",  product:"넥슨 코리아",  team:"BX디자인팀", year:"2023", desc:"지스타 2023에서의 넥슨 브랜드 경험 전반을 기획하고 디자인했습니다.", color:"#E2E6E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
+];
+
+const params = new URLSearchParams(location.search);
+const id = parseInt(params.get('id')) || 1;
+const idx = projects.findIndex(p => p.id === id);
+const project = projects[idx] || projects[0];
+
+document.title = `${project.title} — B archive`;
+document.getElementById('projectTitle').textContent = project.title;
+document.getElementById('metaCategory').textContent = project.category;
+document.getElementById('metaProduct').textContent = project.product;
+document.getElementById('metaTeam').textContent = project.team;
+document.getElementById('metaYear').textContent = project.year;
+document.getElementById('projectDesc').textContent = project.desc;
+
+// Credits
+document.getElementById('projectCredits').textContent = project.credits || '—';
+
+// Tags
+const tagsEl = document.getElementById('projectTags');
+(project.tags || []).forEach(t => {
+  const span = document.createElement('span');
+  span.className = 'tag';
+  span.textContent = t;
+  tagsEl.appendChild(span);
+});
+
+// Related projects (같은 카테고리 우선, 현재 제외, 최대 3개)
+const related = projects
+  .filter(p => p.id !== project.id)
+  .sort((a, b) => (b.category === project.category ? 1 : 0) - (a.category === project.category ? 1 : 0))
+  .slice(0, 3);
+
+const grid = document.getElementById('relatedGrid');
+related.forEach(p => {
+  const a = document.createElement('a');
+  a.className = 'related-card';
+  a.href = `project.html?id=${p.id}`;
+  a.innerHTML = `
+    <div class="related-thumb">
+      <div class="thumb-bg" style="background:${p.color};"></div>
+    </div>
+    <p class="related-card-meta">${p.category}</p>
+    <p class="related-card-title">${p.title}</p>`;
+  grid.appendChild(a);
+});
+
+// Nav hide/show on scroll
+let lastY = 0;
+const nav = document.getElementById('mainNav');
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  if (y > lastY && y > 80) nav.classList.add('hidden');
+  else nav.classList.remove('hidden');
+  lastY = y;
+}, { passive: true });
+</script>
+</body>
+</html>
