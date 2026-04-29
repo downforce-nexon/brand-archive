@@ -347,58 +347,8 @@
   </div>
 </div>
 
-<section class="gallery" style="padding-top:0;">
-  <div class="gallery-row col-1">
-    <div class="gallery-item" style="aspect-ratio:21/9;">
-      <span class="gallery-placeholder">Image 01</span>
-    </div>
-  </div>
-</section>
-
-<section class="project-desc-section">
-  <div class="project-desc-inner fade-up">
-    <p class="project-desc-title" id="projectDescTitle">Overview</p>
-    <p class="project-desc" id="projectDesc"></p>
-  </div>
-</section>
-
-<section class="gallery">
-  <div class="gallery-row col-1">
-    <div class="gallery-item" style="aspect-ratio:21/9;">
-      <span class="gallery-placeholder">Image 02</span>
-    </div>
-  </div>
-</section>
-
-<section class="project-desc-section">
-  <div class="project-desc-inner">
-    <p class="project-desc-title">Design</p>
-    <p class="project-desc">브랜드의 시각적 언어를 구축하는 과정에서 일관성과 유연성 사이의 균형을 중심으로 작업을 전개했습니다. 각 접점에서 동일한 브랜드 감성을 전달하면서도, 맥락에 따라 다양하게 응용될 수 있는 시스템을 설계했습니다.</p>
-  </div>
-</section>
-
-<section class="gallery">
-  <div class="gallery-row col-1">
-    <div class="gallery-item" style="aspect-ratio:21/9;">
-      <span class="gallery-placeholder">Image 03</span>
-    </div>
-  </div>
-</section>
-
-<section class="project-desc-section">
-  <div class="project-desc-inner">
-    <p class="project-desc-title">Outcome</p>
-    <p class="project-desc">완성된 브랜드 시스템은 온·오프라인 전 접점에 일관되게 적용되었으며, 넥슨 브랜드의 새로운 기준점이 되었습니다.</p>
-  </div>
-</section>
-
-<section class="gallery">
-  <div class="gallery-row col-1">
-    <div class="gallery-item" style="aspect-ratio:21/9;">
-      <span class="gallery-placeholder">Image 04</span>
-    </div>
-  </div>
-</section>
+<!-- 노션 페이지 본문 섹션 (data.json에서 동적 렌더링) -->
+<div id="projectSections"></div>
 
 
 <!-- CREDITS -->
@@ -419,70 +369,119 @@
 </section>
 
 <script>
-const projects = [
-  { id:1, title:"넥슨 브랜드 아이덴티티 리뉴얼", category:"Branding", product:"메이플스토리",  team:"BX디자인팀", year:"2026", desc:"넥슨의 브랜드 체계를 전면 재정립하는 작업입니다. 게임 회사를 넘어 문화를 만드는 기업으로서의 넥슨 정체성을 시각 언어로 구축했습니다.", color:"#E8E6E0", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:2, title:"메이플스토리 20주년 캠페인",    category:"Branding", product:"메이플스토리", team:"BX디자인팀", year:"2024", desc:"메이플스토리 20주년을 맞아 유저와 함께한 시간을 되돌아보는 감성 캠페인입니다.", color:"#E2E4E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:3, title:"넥슨 아레나 공간 브랜딩",       category:"Graphic",  product:"넥슨 아레나",  team:"BX디자인팀", year:"2023", desc:"넥슨 아레나의 공간 아이덴티티와 사이니지 시스템을 디자인했습니다.", color:"#E6E8E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:4, title:"던전앤파이터 브랜드 캠페인",    category:"Film",     product:"던전앤파이터", team:"BX디자인팀", year:"2023", desc:"던전앤파이터의 브랜드 캠페인 크리에이티브 방향성을 수립하고 실행했습니다.", color:"#E8E2E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:5, title:"넥슨 디지털 가이드라인 시스템", category:"Graphic",  product:"넥슨 코리아",  team:"BX디자인팀", year:"2023", desc:"디지털 접점 전반에 적용되는 브랜드 가이드라인 시스템을 구축했습니다.", color:"#E4E2E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:6, title:"넥슨 코리아 채용 브랜딩",       category:"Branding", product:"넥슨 코리아",  team:"BX디자인팀", year:"2022", desc:"넥슨의 채용 브랜드 아이덴티티와 커뮤니케이션 체계를 수립했습니다.", color:"#E8E6E2", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-  { id:7, title:"지스타 2023 브랜드 경험",       category:"Graphic",  product:"넥슨 코리아",  team:"BX디자인팀", year:"2023", desc:"지스타 2023에서의 넥슨 브랜드 경험 전반을 기획하고 디자인했습니다.", color:"#E2E6E8", credits:"김보미, 김환희, 김효신, 박지은, 조진태, 홍준수", tags:["Brand Identity","Motion Graphics","Space","Visual System"] },
-];
+async function loadProject() {
+  let projects = [];
 
-const params = new URLSearchParams(location.search);
-const id = parseInt(params.get('id')) || 1;
-const idx = projects.findIndex(p => p.id === id);
-const project = projects[idx] || projects[0];
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    const data = await res.json();
+    projects = data.projects;
+  } catch(e) {
+    console.warn('data.json 로드 실패');
+  }
 
-document.title = `${project.title} — B archive`;
-document.getElementById('projectTitle').textContent = project.title;
-document.getElementById('metaCategory').textContent = project.category;
-document.getElementById('metaProduct').textContent = project.product;
-document.getElementById('metaTeam').textContent = project.team;
-document.getElementById('metaYear').textContent = project.year;
-document.getElementById('projectDesc').textContent = project.desc;
+  const params = new URLSearchParams(location.search);
+  const id = params.get('id');
+  const project = projects.find(p => p.id === id) || projects[0];
+  if (!project) return;
 
-// Credits
-document.getElementById('projectCredits').textContent = project.credits || '—';
+  // 기본 정보
+  document.title = `${project.title} — B archive`;
+  document.getElementById('projectTitle').textContent = project.title;
+  document.getElementById('metaCategory').textContent = project.category;
+  document.getElementById('metaProduct').textContent = project.product || '—';
+  document.getElementById('metaTeam').textContent = 'BX디자인팀';
+  document.getElementById('metaYear').textContent = project.year || '—';
 
-// Tags
-const tagsEl = document.getElementById('projectTags');
-(project.tags || []).forEach(t => {
-  const span = document.createElement('span');
-  span.className = 'tag';
-  span.textContent = t;
-  tagsEl.appendChild(span);
-});
+  // Credits
+  document.getElementById('projectCredits').textContent = project.credits || '—';
 
-// Related projects (같은 카테고리 우선, 현재 제외, 최대 3개)
-const related = projects
-  .filter(p => p.id !== project.id)
-  .sort((a, b) => (b.category === project.category ? 1 : 0) - (a.category === project.category ? 1 : 0))
-  .slice(0, 3);
+  // Tags
+  const tagsEl = document.getElementById('projectTags');
+  (project.tags || []).forEach(t => {
+    const span = document.createElement('span');
+    span.className = 'tag';
+    span.textContent = t;
+    tagsEl.appendChild(span);
+  });
 
-const grid = document.getElementById('relatedGrid');
-related.forEach(p => {
-  const a = document.createElement('a');
-  a.className = 'related-card';
-  a.href = `project.html?id=${p.id}`;
-  a.innerHTML = `
-    <div class="related-thumb">
-      <div class="thumb-bg" style="background:${p.color};"></div>
-    </div>
-    <p class="related-card-meta">${p.category}</p>
-    <p class="related-card-title">${p.title}</p>`;
-  grid.appendChild(a);
-});
+  // 노션 페이지 본문 섹션 렌더링
+  const sectionsEl = document.getElementById('projectSections');
+  if (project.sections && project.sections.length > 0) {
+    sectionsEl.innerHTML = '';
+    project.sections.forEach(section => {
+      // 본문 텍스트
+      if (section.title || section.body) {
+        sectionsEl.innerHTML += `
+          <section class="project-desc-section">
+            <div class="project-desc-inner">
+              ${section.title ? `<p class="project-desc-title">${section.title}</p>` : ''}
+              ${section.body ? `<p class="project-desc">${section.body.replace(/\n/g, '<br>')}</p>` : ''}
+            </div>
+          </section>`;
+      }
+      // 이미지 & 비디오
+      section.images.forEach(media => {
+        const isVideo = typeof media === 'object' && media.type === 'video';
+        const isImage = typeof media === 'object' && media.type === 'image';
+        const url = typeof media === 'string' ? media : media.url;
 
-// Nav hide/show on scroll
-let lastY = 0;
-const nav = document.getElementById('mainNav');
-window.addEventListener('scroll', () => {
-  const y = window.scrollY;
-  if (y > lastY && y > 80) nav.classList.add('hidden');
-  else nav.classList.remove('hidden');
-  lastY = y;
-}, { passive: true });
+        if (isVideo) {
+          sectionsEl.innerHTML += `
+            <section class="gallery">
+              <div class="gallery-row col-1">
+                <div class="gallery-item" style="aspect-ratio:21/9; background:#0A0A0A; overflow:hidden;">
+                  <video src="${url}" controls playsinline style="width:100%;height:100%;object-fit:contain;"></video>
+                </div>
+              </div>
+            </section>`;
+        } else {
+          sectionsEl.innerHTML += `
+            <section class="gallery">
+              <div class="gallery-row col-1">
+                <div class="gallery-item" style="aspect-ratio:21/9; background:#F0F0EE;">
+                  <img src="${url}" alt="" style="width:100%;height:100%;object-fit:cover;">
+                </div>
+              </div>
+            </section>`;
+        }
+      });
+    });
+  }
+
+  // Related projects
+  const related = projects
+    .filter(p => p.id !== project.id)
+    .sort((a, b) => (b.category === project.category ? 1 : 0) - (a.category === project.category ? 1 : 0))
+    .slice(0, 3);
+
+  const grid = document.getElementById('relatedGrid');
+  related.forEach(p => {
+    const a = document.createElement('a');
+    a.className = 'related-card';
+    a.href = `project.html?id=${p.id}`;
+    const thumb = p.thumbnail
+      ? `<img src="${p.thumbnail}" alt="${p.title}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">`
+      : `<div class="thumb-bg" style="background:${p.color};"></div>`;
+    a.innerHTML = `
+      <div class="related-thumb">${thumb}</div>
+      <p class="related-card-meta">${p.category}</p>
+      <p class="related-card-title">${p.title}</p>`;
+    grid.appendChild(a);
+  });
+
+  // Nav hide/show on scroll
+  let lastY = 0;
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y > lastY && y > 80) nav.classList.add('hidden');
+    else nav.classList.remove('hidden');
+    lastY = y;
+  }, { passive: true });
+}
+
+loadProject();
 </script>
 </body>
 </html>
