@@ -1,94 +1,12 @@
 {
   "projects": [
     {
-      "id": "351dadb56b2f815988a3e0f56a421326",
-      "title": "넥슨 브랜드 아이덴티티 리뉴얼",
-      "category": "Branding",
-      "featured": true,
-      "product": "메이플스토리",
-      "year": "2026",
-      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
-      "tags": [
-        "Brand Identity",
-        "Motion Graphics",
-        "Space",
-        "Visual System"
-      ],
-      "color": "#D8D8D8",
-      "thumbnail": "",
-      "thumbnailVideo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/c14b99a1-6df0-418f-85af-5e35a3e931fd/NDC_DID_002_2to12s.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OIMR3G2%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCID2tcfOdKaBycFd1OjyuPalgR8jLvI9DjfoX7tXzDkPYAiEA9YCdcbrqkAubW%2FLBj39uuI0b0T%2FgMqbpXe26sVUtsEUq%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDPQx%2BwOzN5cgpkGNmircA7WurgpQwSAlb3ZjI2yjAFE%2F4GA3wH83GunVK8If1vRqnfXC8V4lp7xpNeCkRjJLzdjFGRMKZZjnt3%2FUa6Kz8XVVMv07QfAg%2F0rKHxPAkVr1AZK7Ey%2BN7wllfvHyMY0YatEHXHGbDyX6fMws4H1HI7WYlg9Dwg%2FAFer1zzkc%2Bf6ymgUj2xcZaVHe0NFJXJY1Hd9hqpiq7OmrUQbdyOKxgdBHzavPGsYb%2BNKFD%2F2U1K6K4iZxvbTjbWfRYObjTbA%2BFojWgGzaFH1ZVT0djgpWLHQCmvuAopgS6Yb1RU63zOCSsWp5zVy%2Bs%2FQK1hpFIsXwMnFmz7NH5%2FtmHVFwUTYpjHqChPWY86RkBt8lWzVuLDBIijxWK9IolbCG6gD%2BIv9%2B0tyOlg%2BiTC84Km6MRLJPNxjQ5Jaa5Ctbd1eMHngp3AH6ICi%2FI3NGbOGYyxqzka17ZjSK%2Fl8FsIKTfCxBuWvm1haLovvInUU2lTJiXTPApoLh1gK7JE2c9%2F9Ne%2Bq4Qndz9KNNX7UJA0h%2BEk%2FXy%2Bq%2Bg9sROW3TrlJjb305p2otC7fNYG4v%2F4l3h7RBF4PbM7Tz%2BQ46%2BAx5CvD1RCSF9FIoYqgcO%2FHS9cWBoUqZtsFCzs7UZjXooRPRnXL0s7vJMOnzys8GOqUBltf06E9PMLlv%2BKnn3%2FBm1chejYZnyKNW4Y7ehpfWM4RsvQP4455jNvCo3bt04bKf6wZmWTlowuEGxGX1z%2FQ0MINeeV1MlWDnIvJLqEwKO0tzyW6HEQSmDbg7%2F%2FMO%2F81ySzr3Y762zcDVIOCKrXZDpbeujFKOzEOgOJB7XGN2DDzYvrT4GXccu3RjQrwrLPOTbJFsqmFh6bNWg1KR4aQ2O1EIT4td&X-Amz-Signature=5e105f6855afe8e8c73ff5814b39f7147cdcf1feb6d01e030d94ec5ff310596b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "sections": [
-        {
-          "title": "",
-          "body": "",
-          "images": [
-            {
-              "type": "image",
-              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/8f10ace7-784b-4ed7-bb58-d5b69eb41307/Dimensioal_Shift.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WNKAEPG%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022254Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCICZNPf%2BjoxpLv8p1HmqFwDozsWRX8prHr71%2FLBRZLwy%2BAiEA06RNooFURY8XmlQzRkYGiD477amigehCJVX0K%2Bj%2FDc8q%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDIyefOa1ti6bhcq73ircAxPaVHIBNSRhOGQW85y4LOy70BbfUk%2BJnc4Ups9NznCxE%2FSz6zUopo2ULKyrok%2BM2X60UP9DeKyqKmZOhxvEVdNekgfo6EkeoJI%2FP7KH4mIrGJHivcR2enuMCQvZhyp3EiViRVt4%2BSQm5ybxuw1pXvEDrCyBhaFLQhJZNkNwXJSEtYPVw8zqFBvsBODj%2FbPjlOZaZj3MXnUXahjDrLyqwM%2BsVnAYVTDi93WfbKrJiNqVJrUHhO%2FbD4jVSwDBi044S7H%2Fn3gOFOB7o8qGLA5CzVQYKuW%2FQmeDQwwSdpPjrGltKxKybp8i1V4mjH7tKdyUNkfI8%2BerYpOun7v2rfVbjvxkWwVj3oUQjSeubUf%2F%2B9Md1IulM6g1mBQGIUmUazGcREvt%2B8esxPR%2FJagDMfR22M%2FGZxH%2BIemZV4XV%2B57b0LsUCNFk6N2Bmmn0RNIBM01RrEAeI1zGyAfXoRQuGyRJtyZxfyVcvtDs9b2jAd5JvcdcHHJh%2B0do5cqq7%2B6%2F7xpbYzAtQqs%2BoAStFCcgKJEbKIJ%2FLkpQiE7SSPxqt8wPhKGFUfdApH64LBCtkkIG9zL08Q5VsVVKqLzuuE6Rn26LzkZVpvxHwFlhZDxrjymksdXeHlBmm1rpsuEet7cmMLv1ys8GOqUBwDTLGyCYowVcIhPC1mvn1urco3Fx8K9Me84mqpk4E4eoppaBjb9LgzKb0HFtzwTQOKKuFko1CMe%2FMx97HL7EjlZn5NdVkHVcUnn%2FvqV6qwM%2Fc2sQJSVpXBtT%2BEYCrCFNASNCkh7xYNWA5Q%2F9Nco8qyqm%2FWsGci7RFt3Z9dlSTNxmULXKLMoN21X9yQ6vE3cmqwB0VmEN3lBL3Ntc%2FH0sHOlr%2BjSE&X-Amz-Signature=0cc31ffb217b8db3b0a0c1d08a399790d85c51775ec2efae30e5a5841894824d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-            }
-          ]
-        },
-        {
-          "title": "Background",
-          "body": "넥슨 안에는 여러 제품이 공존하며 각각의 역할, 위상, 표기 방식이 섞이기 쉽습니다. \n때문에 서로 같은 단어를 다른 레벨과 의미로 혼용하며 혼선을 만듭니다.\n따라서 감이 아닌 기준으로서 조직의 언어를 통일하고, 넥슨 브랜드 의사 결정의 상시 기준선을 만드는 것이 브랜드 아키텍처 정리입니다.",
-          "images": [
-            {
-              "type": "image",
-              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/08725fda-76b5-4337-a67d-0bea4ddeac3c/Frame_1321322711.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WNKAEPG%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022254Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCICZNPf%2BjoxpLv8p1HmqFwDozsWRX8prHr71%2FLBRZLwy%2BAiEA06RNooFURY8XmlQzRkYGiD477amigehCJVX0K%2Bj%2FDc8q%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDIyefOa1ti6bhcq73ircAxPaVHIBNSRhOGQW85y4LOy70BbfUk%2BJnc4Ups9NznCxE%2FSz6zUopo2ULKyrok%2BM2X60UP9DeKyqKmZOhxvEVdNekgfo6EkeoJI%2FP7KH4mIrGJHivcR2enuMCQvZhyp3EiViRVt4%2BSQm5ybxuw1pXvEDrCyBhaFLQhJZNkNwXJSEtYPVw8zqFBvsBODj%2FbPjlOZaZj3MXnUXahjDrLyqwM%2BsVnAYVTDi93WfbKrJiNqVJrUHhO%2FbD4jVSwDBi044S7H%2Fn3gOFOB7o8qGLA5CzVQYKuW%2FQmeDQwwSdpPjrGltKxKybp8i1V4mjH7tKdyUNkfI8%2BerYpOun7v2rfVbjvxkWwVj3oUQjSeubUf%2F%2B9Md1IulM6g1mBQGIUmUazGcREvt%2B8esxPR%2FJagDMfR22M%2FGZxH%2BIemZV4XV%2B57b0LsUCNFk6N2Bmmn0RNIBM01RrEAeI1zGyAfXoRQuGyRJtyZxfyVcvtDs9b2jAd5JvcdcHHJh%2B0do5cqq7%2B6%2F7xpbYzAtQqs%2BoAStFCcgKJEbKIJ%2FLkpQiE7SSPxqt8wPhKGFUfdApH64LBCtkkIG9zL08Q5VsVVKqLzuuE6Rn26LzkZVpvxHwFlhZDxrjymksdXeHlBmm1rpsuEet7cmMLv1ys8GOqUBwDTLGyCYowVcIhPC1mvn1urco3Fx8K9Me84mqpk4E4eoppaBjb9LgzKb0HFtzwTQOKKuFko1CMe%2FMx97HL7EjlZn5NdVkHVcUnn%2FvqV6qwM%2Fc2sQJSVpXBtT%2BEYCrCFNASNCkh7xYNWA5Q%2F9Nco8qyqm%2FWsGci7RFt3Z9dlSTNxmULXKLMoN21X9yQ6vE3cmqwB0VmEN3lBL3Ntc%2FH0sHOlr%2BjSE&X-Amz-Signature=b1053e0175fb5f1bb6d34311c2c0b186d28d90140e8234d4bd0520d5a9cea818&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-            }
-          ]
-        },
-        {
-          "title": "Design",
-          "body": "브랜드의 시각적 언어를 구축하는 과정에서 일관성과 유연성 사이의 균형을 중심으로 작업을 전개했습니다. 각 접점에서 동일한 브랜드 감성을 전달하면서도, 맥락에 따라 다양하게 응용될 수 있는 시스템을 설계했습니다.",
-          "images": [
-            {
-              "type": "image",
-              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/6d79be23-ffbc-4f41-bc6b-2008fef040e1/NDC_Graphic_Motif_A-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662WNKAEPG%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022254Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCICZNPf%2BjoxpLv8p1HmqFwDozsWRX8prHr71%2FLBRZLwy%2BAiEA06RNooFURY8XmlQzRkYGiD477amigehCJVX0K%2Bj%2FDc8q%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDIyefOa1ti6bhcq73ircAxPaVHIBNSRhOGQW85y4LOy70BbfUk%2BJnc4Ups9NznCxE%2FSz6zUopo2ULKyrok%2BM2X60UP9DeKyqKmZOhxvEVdNekgfo6EkeoJI%2FP7KH4mIrGJHivcR2enuMCQvZhyp3EiViRVt4%2BSQm5ybxuw1pXvEDrCyBhaFLQhJZNkNwXJSEtYPVw8zqFBvsBODj%2FbPjlOZaZj3MXnUXahjDrLyqwM%2BsVnAYVTDi93WfbKrJiNqVJrUHhO%2FbD4jVSwDBi044S7H%2Fn3gOFOB7o8qGLA5CzVQYKuW%2FQmeDQwwSdpPjrGltKxKybp8i1V4mjH7tKdyUNkfI8%2BerYpOun7v2rfVbjvxkWwVj3oUQjSeubUf%2F%2B9Md1IulM6g1mBQGIUmUazGcREvt%2B8esxPR%2FJagDMfR22M%2FGZxH%2BIemZV4XV%2B57b0LsUCNFk6N2Bmmn0RNIBM01RrEAeI1zGyAfXoRQuGyRJtyZxfyVcvtDs9b2jAd5JvcdcHHJh%2B0do5cqq7%2B6%2F7xpbYzAtQqs%2BoAStFCcgKJEbKIJ%2FLkpQiE7SSPxqt8wPhKGFUfdApH64LBCtkkIG9zL08Q5VsVVKqLzuuE6Rn26LzkZVpvxHwFlhZDxrjymksdXeHlBmm1rpsuEet7cmMLv1ys8GOqUBwDTLGyCYowVcIhPC1mvn1urco3Fx8K9Me84mqpk4E4eoppaBjb9LgzKb0HFtzwTQOKKuFko1CMe%2FMx97HL7EjlZn5NdVkHVcUnn%2FvqV6qwM%2Fc2sQJSVpXBtT%2BEYCrCFNASNCkh7xYNWA5Q%2F9Nco8qyqm%2FWsGci7RFt3Z9dlSTNxmULXKLMoN21X9yQ6vE3cmqwB0VmEN3lBL3Ntc%2FH0sHOlr%2BjSE&X-Amz-Signature=53272917bfe3c1c410896aeb276dfc198e95ca13571bf1041e7c60e781ccbf44&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-            }
-          ]
-        },
-        {
-          "title": "Outcome",
-          "body": "완성된 브랜드 시스템은 온·오프라인 전 접점에 일관되게 적용되었으며, 넥슨 브랜드의 새로운 기준점이 되었습니다.",
-          "images": []
-        }
-      ],
-      "filter": [
-        "branding",
-        "all"
-      ]
-    },
-    {
-      "id": "351dadb56b2f81e89b5ec22ee9b77cb6",
-      "title": "게임스케일 ScaleSans",
-      "category": "Branding",
-      "featured": true,
-      "product": "메이플스토리",
-      "year": "2024",
-      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
-      "tags": [
-        "Brand Identity",
-        "Motion Graphics",
-        "Space",
-        "Visual System"
-      ],
-      "color": "#D4D4D4",
-      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/72e4d68f-99ae-4857-9fd5-0e49167d8bfb/Frame_1321316909.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OIMR3G2%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCID2tcfOdKaBycFd1OjyuPalgR8jLvI9DjfoX7tXzDkPYAiEA9YCdcbrqkAubW%2FLBj39uuI0b0T%2FgMqbpXe26sVUtsEUq%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDPQx%2BwOzN5cgpkGNmircA7WurgpQwSAlb3ZjI2yjAFE%2F4GA3wH83GunVK8If1vRqnfXC8V4lp7xpNeCkRjJLzdjFGRMKZZjnt3%2FUa6Kz8XVVMv07QfAg%2F0rKHxPAkVr1AZK7Ey%2BN7wllfvHyMY0YatEHXHGbDyX6fMws4H1HI7WYlg9Dwg%2FAFer1zzkc%2Bf6ymgUj2xcZaVHe0NFJXJY1Hd9hqpiq7OmrUQbdyOKxgdBHzavPGsYb%2BNKFD%2F2U1K6K4iZxvbTjbWfRYObjTbA%2BFojWgGzaFH1ZVT0djgpWLHQCmvuAopgS6Yb1RU63zOCSsWp5zVy%2Bs%2FQK1hpFIsXwMnFmz7NH5%2FtmHVFwUTYpjHqChPWY86RkBt8lWzVuLDBIijxWK9IolbCG6gD%2BIv9%2B0tyOlg%2BiTC84Km6MRLJPNxjQ5Jaa5Ctbd1eMHngp3AH6ICi%2FI3NGbOGYyxqzka17ZjSK%2Fl8FsIKTfCxBuWvm1haLovvInUU2lTJiXTPApoLh1gK7JE2c9%2F9Ne%2Bq4Qndz9KNNX7UJA0h%2BEk%2FXy%2Bq%2Bg9sROW3TrlJjb305p2otC7fNYG4v%2F4l3h7RBF4PbM7Tz%2BQ46%2BAx5CvD1RCSF9FIoYqgcO%2FHS9cWBoUqZtsFCzs7UZjXooRPRnXL0s7vJMOnzys8GOqUBltf06E9PMLlv%2BKnn3%2FBm1chejYZnyKNW4Y7ehpfWM4RsvQP4455jNvCo3bt04bKf6wZmWTlowuEGxGX1z%2FQ0MINeeV1MlWDnIvJLqEwKO0tzyW6HEQSmDbg7%2F%2FMO%2F81ySzr3Y762zcDVIOCKrXZDpbeujFKOzEOgOJB7XGN2DDzYvrT4GXccu3RjQrwrLPOTbJFsqmFh6bNWg1KR4aQ2O1EIT4td&X-Amz-Signature=74c5681d4d984b37573cda981efa13ef71a31096d17676952dd24cd7aec1007b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "thumbnailVideo": "",
-      "sections": [],
-      "filter": [
-        "branding",
-        "all"
-      ]
-    },
-    {
-      "id": "351dadb56b2f81c593d0dd5f1085034b",
-      "title": "넥슨 뮤지엄",
+      "id": "351dadb56b2f8121827ed7080285f681",
+      "title": "넥슨 디지털 가이드라인 시스템",
       "category": "Graphic",
-      "featured": true,
-      "product": "넥슨 뮤지엄",
-      "year": "2025",
+      "featured": false,
+      "product": "넥슨 코리아",
+      "year": "2023",
       "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
       "tags": [
         "Brand Identity",
@@ -96,13 +14,12 @@
         "Space",
         "Visual System"
       ],
-      "color": "#DADADA",
-      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/011bf5ae-34ed-4ee4-aef0-1617dadf1a26/B-sign.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OIMR3G2%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCID2tcfOdKaBycFd1OjyuPalgR8jLvI9DjfoX7tXzDkPYAiEA9YCdcbrqkAubW%2FLBj39uuI0b0T%2FgMqbpXe26sVUtsEUq%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDPQx%2BwOzN5cgpkGNmircA7WurgpQwSAlb3ZjI2yjAFE%2F4GA3wH83GunVK8If1vRqnfXC8V4lp7xpNeCkRjJLzdjFGRMKZZjnt3%2FUa6Kz8XVVMv07QfAg%2F0rKHxPAkVr1AZK7Ey%2BN7wllfvHyMY0YatEHXHGbDyX6fMws4H1HI7WYlg9Dwg%2FAFer1zzkc%2Bf6ymgUj2xcZaVHe0NFJXJY1Hd9hqpiq7OmrUQbdyOKxgdBHzavPGsYb%2BNKFD%2F2U1K6K4iZxvbTjbWfRYObjTbA%2BFojWgGzaFH1ZVT0djgpWLHQCmvuAopgS6Yb1RU63zOCSsWp5zVy%2Bs%2FQK1hpFIsXwMnFmz7NH5%2FtmHVFwUTYpjHqChPWY86RkBt8lWzVuLDBIijxWK9IolbCG6gD%2BIv9%2B0tyOlg%2BiTC84Km6MRLJPNxjQ5Jaa5Ctbd1eMHngp3AH6ICi%2FI3NGbOGYyxqzka17ZjSK%2Fl8FsIKTfCxBuWvm1haLovvInUU2lTJiXTPApoLh1gK7JE2c9%2F9Ne%2Bq4Qndz9KNNX7UJA0h%2BEk%2FXy%2Bq%2Bg9sROW3TrlJjb305p2otC7fNYG4v%2F4l3h7RBF4PbM7Tz%2BQ46%2BAx5CvD1RCSF9FIoYqgcO%2FHS9cWBoUqZtsFCzs7UZjXooRPRnXL0s7vJMOnzys8GOqUBltf06E9PMLlv%2BKnn3%2FBm1chejYZnyKNW4Y7ehpfWM4RsvQP4455jNvCo3bt04bKf6wZmWTlowuEGxGX1z%2FQ0MINeeV1MlWDnIvJLqEwKO0tzyW6HEQSmDbg7%2F%2FMO%2F81ySzr3Y762zcDVIOCKrXZDpbeujFKOzEOgOJB7XGN2DDzYvrT4GXccu3RjQrwrLPOTbJFsqmFh6bNWg1KR4aQ2O1EIT4td&X-Amz-Signature=0ee3cd428b100ba7915e91b4c239524b8989b7bdd8d6cda2f42861ca57112225&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "color": "#DCDCDC",
+      "thumbnail": "",
       "thumbnailVideo": "",
       "sections": [],
       "filter": [
-        "graphic",
-        "all"
+        "graphic"
       ]
     },
     {
@@ -120,11 +37,93 @@
         "Visual System"
       ],
       "color": "#D8DAD6",
-      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/d3b0b148-9d88-4bc6-a413-e0521f03051a/%ED%94%84%EB%A6%AC%EB%B7%B0_%EB%A9%94%EC%9D%B8%EB%B0%B0%EB%84%88_Step10.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OIMR3G2%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCID2tcfOdKaBycFd1OjyuPalgR8jLvI9DjfoX7tXzDkPYAiEA9YCdcbrqkAubW%2FLBj39uuI0b0T%2FgMqbpXe26sVUtsEUq%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDPQx%2BwOzN5cgpkGNmircA7WurgpQwSAlb3ZjI2yjAFE%2F4GA3wH83GunVK8If1vRqnfXC8V4lp7xpNeCkRjJLzdjFGRMKZZjnt3%2FUa6Kz8XVVMv07QfAg%2F0rKHxPAkVr1AZK7Ey%2BN7wllfvHyMY0YatEHXHGbDyX6fMws4H1HI7WYlg9Dwg%2FAFer1zzkc%2Bf6ymgUj2xcZaVHe0NFJXJY1Hd9hqpiq7OmrUQbdyOKxgdBHzavPGsYb%2BNKFD%2F2U1K6K4iZxvbTjbWfRYObjTbA%2BFojWgGzaFH1ZVT0djgpWLHQCmvuAopgS6Yb1RU63zOCSsWp5zVy%2Bs%2FQK1hpFIsXwMnFmz7NH5%2FtmHVFwUTYpjHqChPWY86RkBt8lWzVuLDBIijxWK9IolbCG6gD%2BIv9%2B0tyOlg%2BiTC84Km6MRLJPNxjQ5Jaa5Ctbd1eMHngp3AH6ICi%2FI3NGbOGYyxqzka17ZjSK%2Fl8FsIKTfCxBuWvm1haLovvInUU2lTJiXTPApoLh1gK7JE2c9%2F9Ne%2Bq4Qndz9KNNX7UJA0h%2BEk%2FXy%2Bq%2Bg9sROW3TrlJjb305p2otC7fNYG4v%2F4l3h7RBF4PbM7Tz%2BQ46%2BAx5CvD1RCSF9FIoYqgcO%2FHS9cWBoUqZtsFCzs7UZjXooRPRnXL0s7vJMOnzys8GOqUBltf06E9PMLlv%2BKnn3%2FBm1chejYZnyKNW4Y7ehpfWM4RsvQP4455jNvCo3bt04bKf6wZmWTlowuEGxGX1z%2FQ0MINeeV1MlWDnIvJLqEwKO0tzyW6HEQSmDbg7%2F%2FMO%2F81ySzr3Y762zcDVIOCKrXZDpbeujFKOzEOgOJB7XGN2DDzYvrT4GXccu3RjQrwrLPOTbJFsqmFh6bNWg1KR4aQ2O1EIT4td&X-Amz-Signature=7a917ecbdbcb8ba488327ad0a73ad05075d481a82802cfda689d2f43fdb2bbdf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/d3b0b148-9d88-4bc6-a413-e0521f03051a/%ED%94%84%EB%A6%AC%EB%B7%B0_%EB%A9%94%EC%9D%B8%EB%B0%B0%EB%84%88_Step10.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBLFNY3E%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDqLm0DYdjuYuE%2B3UtOJ04h3o2D19U6i9SDS49XbBs5tQIhAI7VDiQy3YxvMsJJ%2FCNbWi0INjx3Ghn8IS3BMMil8cwBKv8DCAUQABoMNjM3NDIzMTgzODA1Igz%2FdDB47SUSQINHvhgq3AMv%2BhModcSfcgU0brpiU0%2F4qQ7iA8msZ%2Bxd%2BBRCfRyw4EDnVpbpF%2Fns%2BDmGK3BPlLIYzPPzQ6ovp1zyPXraOH6Oyfi5zb7LBO5xzoYWcL0KyOa81udpMUrSchlEG1bzYd4WixOCz4lX9w6rrSf4YyRDMbTcvMejZc2qjbZpYvT2lCvKA4bRbRLfHWWuEpV%2BnWo2irq%2B7pXUo8oe%2B7m949TsCaRBzjb3JZNvrZOZ3ARB%2FjD8jQSM3%2BEoSe5HGtmi6mHG9%2BAPTek6OT7I%2Fc137k2E%2FbdEGUxAJU16BWDaPPlTuPJOFIFfwsXSe4NEkXHeaiKmexXrQqQIolKlduuQWX7vrnvmQljsgk%2BZ8Br%2BuYUTNPYkRzxhQN4MSwkOR12BvuuF%2BdFiCLkSiWjWHO6tMlPkQmRXFGEwLrx4kvvOQKM42MpQqyVIJDAIuV3w9Yr6V2S%2BUVYWw%2Fr7Y%2F81WNdV6StIadNoZ%2FbpKfIUBup7EyJ7Vyb4Rcf%2FLFaobJKV11wEPRgkCiYm089k4niqzPBosbGmNxtajXoWOz4LcRuYhOGNaLBRlfrxjz961MiAkESG21Z2pKDItmgV%2BYqk2iYK0g63irjO04KLeAcc1VO14mzVoCdzYwZsom8NgCFafzDJmsvPBjqkAeAs1zg17xVszrlsYvBWamIE2OIVfMdNM4T4FE%2BuyTyMpPve7Z25hajwoNN82e8CDSYqKyCWb%2BikzOyE0hG4HLWsqyZfSylu5oVcOJPUTk1rPOrV%2FNU79zQUA%2FVyQBYCjb1SoSCl037CPJgtCRVTp3LDsWx4wVNNkSoFTl5FdliOfVDSOK6doT1KJ2fBUZ3UAHEfrjgARHV8TddVAKRDHS39vES3&X-Amz-Signature=f5a483308ac7272612dfe8ee845f68deaf221b2b170922cdd98a4c709dc87ec5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f815988a3e0f56a421326",
+      "title": "넥슨 브랜드 아이덴티티 리뉴얼",
+      "category": "Branding",
+      "featured": true,
+      "product": "메이플스토리",
+      "year": "2026",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D8D8D8",
+      "thumbnail": "",
+      "thumbnailVideo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/c14b99a1-6df0-418f-85af-5e35a3e931fd/NDC_DID_002_2to12s.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBLFNY3E%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDqLm0DYdjuYuE%2B3UtOJ04h3o2D19U6i9SDS49XbBs5tQIhAI7VDiQy3YxvMsJJ%2FCNbWi0INjx3Ghn8IS3BMMil8cwBKv8DCAUQABoMNjM3NDIzMTgzODA1Igz%2FdDB47SUSQINHvhgq3AMv%2BhModcSfcgU0brpiU0%2F4qQ7iA8msZ%2Bxd%2BBRCfRyw4EDnVpbpF%2Fns%2BDmGK3BPlLIYzPPzQ6ovp1zyPXraOH6Oyfi5zb7LBO5xzoYWcL0KyOa81udpMUrSchlEG1bzYd4WixOCz4lX9w6rrSf4YyRDMbTcvMejZc2qjbZpYvT2lCvKA4bRbRLfHWWuEpV%2BnWo2irq%2B7pXUo8oe%2B7m949TsCaRBzjb3JZNvrZOZ3ARB%2FjD8jQSM3%2BEoSe5HGtmi6mHG9%2BAPTek6OT7I%2Fc137k2E%2FbdEGUxAJU16BWDaPPlTuPJOFIFfwsXSe4NEkXHeaiKmexXrQqQIolKlduuQWX7vrnvmQljsgk%2BZ8Br%2BuYUTNPYkRzxhQN4MSwkOR12BvuuF%2BdFiCLkSiWjWHO6tMlPkQmRXFGEwLrx4kvvOQKM42MpQqyVIJDAIuV3w9Yr6V2S%2BUVYWw%2Fr7Y%2F81WNdV6StIadNoZ%2FbpKfIUBup7EyJ7Vyb4Rcf%2FLFaobJKV11wEPRgkCiYm089k4niqzPBosbGmNxtajXoWOz4LcRuYhOGNaLBRlfrxjz961MiAkESG21Z2pKDItmgV%2BYqk2iYK0g63irjO04KLeAcc1VO14mzVoCdzYwZsom8NgCFafzDJmsvPBjqkAeAs1zg17xVszrlsYvBWamIE2OIVfMdNM4T4FE%2BuyTyMpPve7Z25hajwoNN82e8CDSYqKyCWb%2BikzOyE0hG4HLWsqyZfSylu5oVcOJPUTk1rPOrV%2FNU79zQUA%2FVyQBYCjb1SoSCl037CPJgtCRVTp3LDsWx4wVNNkSoFTl5FdliOfVDSOK6doT1KJ2fBUZ3UAHEfrjgARHV8TddVAKRDHS39vES3&X-Amz-Signature=2c4017b173ad4879eec16661abf712254c86d1381333a6add45bca7c258154a5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "sections": [
+        {
+          "title": "",
+          "body": "",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/8f10ace7-784b-4ed7-bb58-d5b69eb41307/Dimensioal_Shift.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SUZN77UP%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035606Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDrwsJ5IVlGyUOwNi3Nh8iq%2FMuBB386EhA%2BG4OhQZ21pgIhAKiQaiIqOT0rHA6CzzSFP7Z3gUY7hDkJnUahvYoO2ohyKv8DCAUQABoMNjM3NDIzMTgzODA1IgyWyGzQRmnUf%2Fq5kCsq3AOoxj1QKwowdy3Oj5VnafHdz%2BfQXlb5QcrNVRuyYbzkpBwhhjzLjPbaDSTc%2Fgk4IYUDGTrWbAPRm0DVlBGGE0NdT%2FDl7SSa%2FZs4x6%2FvvTeFBcN9eXRzorEp8WAp7%2FaD32GAllC12MCIXMymjX5DOuY%2Bzhzy2DOh5zvhvSFh4zG1SwZeXpC8jtdhIiFSiERUoWZ9pqhd8TQ%2BZ3D5j4kAjljWIQrXM13Hn4frRKrZrxgLKIdSAJ1zprQXr3w1p63y9ag%2BvcqcL9xAhhFDWXwKb3Q5ToS17YO86s2SgSxrR9OImpSVN7mGg0sNrjJF2vjRBQfhgzUt8t4E%2FL9Q9j%2BZpTUGRvGB8JcKX1Wf4lDuftvRDWwslrhqZKSYVmOLXGkXzYoUo9mwSmVLfDd2fr6NRPhO96btblN5dwmiPUJZB45i1STJmzAqEDnFHdp%2BD0v9RbTUYOC7nCJeQ4EECWeBHAjoRl8c602CxJR9PVkGpBQCs2KBti4S7rSdpZIWxBeM8GZM%2B8incqo0w7k0A98Pnw6Z7AN7NUmvbE%2B2Heul4l6Lhr14idZhbFO7RbkbKWaF2yTscvZ1bLXa9BDRm3P0riRV6AYM5tLIc%2BEkDgNWo%2F6pi%2B%2FrUKTBn%2FtvfT6TTTDYmMvPBjqkATovoIKHyv%2Fe6zyGOX9im02RfKoLsJnPGYNPP0lQR8JrHHi2Py4gmAX13pR0jN0bg6h6cHoqhstj2119P%2FiijcYMc48LXk6NLFzLHuiqlzRVDN2Yo6IyzquC1lQ8bD2iIh%2BFAp09RlDGI4GdcNvkp4ybCK1CZfoZksSeFImpoi8coDyAWgmO4N4OZv8qmC1XO9VvT7RlZ%2FK2JWN%2BBq%2FrRgU5kGlI&X-Amz-Signature=a5f958768566bdaf6b0398f19de43753dd9b34e6f7596383d1a8b70ffc3646c0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "Background",
+          "body": "넥슨 안에는 여러 제품이 공존하며 각각의 역할, 위상, 표기 방식이 섞이기 쉽습니다. \n때문에 서로 같은 단어를 다른 레벨과 의미로 혼용하며 혼선을 만듭니다.\n따라서 감이 아닌 기준으로서 조직의 언어를 통일하고, 넥슨 브랜드 의사 결정의 상시 기준선을 만드는 것이 브랜드 아키텍처 정리입니다.",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/08725fda-76b5-4337-a67d-0bea4ddeac3c/Frame_1321322711.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SUZN77UP%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035606Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDrwsJ5IVlGyUOwNi3Nh8iq%2FMuBB386EhA%2BG4OhQZ21pgIhAKiQaiIqOT0rHA6CzzSFP7Z3gUY7hDkJnUahvYoO2ohyKv8DCAUQABoMNjM3NDIzMTgzODA1IgyWyGzQRmnUf%2Fq5kCsq3AOoxj1QKwowdy3Oj5VnafHdz%2BfQXlb5QcrNVRuyYbzkpBwhhjzLjPbaDSTc%2Fgk4IYUDGTrWbAPRm0DVlBGGE0NdT%2FDl7SSa%2FZs4x6%2FvvTeFBcN9eXRzorEp8WAp7%2FaD32GAllC12MCIXMymjX5DOuY%2Bzhzy2DOh5zvhvSFh4zG1SwZeXpC8jtdhIiFSiERUoWZ9pqhd8TQ%2BZ3D5j4kAjljWIQrXM13Hn4frRKrZrxgLKIdSAJ1zprQXr3w1p63y9ag%2BvcqcL9xAhhFDWXwKb3Q5ToS17YO86s2SgSxrR9OImpSVN7mGg0sNrjJF2vjRBQfhgzUt8t4E%2FL9Q9j%2BZpTUGRvGB8JcKX1Wf4lDuftvRDWwslrhqZKSYVmOLXGkXzYoUo9mwSmVLfDd2fr6NRPhO96btblN5dwmiPUJZB45i1STJmzAqEDnFHdp%2BD0v9RbTUYOC7nCJeQ4EECWeBHAjoRl8c602CxJR9PVkGpBQCs2KBti4S7rSdpZIWxBeM8GZM%2B8incqo0w7k0A98Pnw6Z7AN7NUmvbE%2B2Heul4l6Lhr14idZhbFO7RbkbKWaF2yTscvZ1bLXa9BDRm3P0riRV6AYM5tLIc%2BEkDgNWo%2F6pi%2B%2FrUKTBn%2FtvfT6TTTDYmMvPBjqkATovoIKHyv%2Fe6zyGOX9im02RfKoLsJnPGYNPP0lQR8JrHHi2Py4gmAX13pR0jN0bg6h6cHoqhstj2119P%2FiijcYMc48LXk6NLFzLHuiqlzRVDN2Yo6IyzquC1lQ8bD2iIh%2BFAp09RlDGI4GdcNvkp4ybCK1CZfoZksSeFImpoi8coDyAWgmO4N4OZv8qmC1XO9VvT7RlZ%2FK2JWN%2BBq%2FrRgU5kGlI&X-Amz-Signature=9388c1289f45b2b3d6841dbe37ccec747147ad2209b47cb817f48daec3a0cd3a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "Design",
+          "body": "브랜드의 시각적 언어를 구축하는 과정에서 일관성과 유연성 사이의 균형을 중심으로 작업을 전개했습니다. 각 접점에서 동일한 브랜드 감성을 전달하면서도, 맥락에 따라 다양하게 응용될 수 있는 시스템을 설계했습니다.",
+          "images": [
+            {
+              "type": "image",
+              "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/6d79be23-ffbc-4f41-bc6b-2008fef040e1/NDC_Graphic_Motif_A-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SUZN77UP%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035606Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDrwsJ5IVlGyUOwNi3Nh8iq%2FMuBB386EhA%2BG4OhQZ21pgIhAKiQaiIqOT0rHA6CzzSFP7Z3gUY7hDkJnUahvYoO2ohyKv8DCAUQABoMNjM3NDIzMTgzODA1IgyWyGzQRmnUf%2Fq5kCsq3AOoxj1QKwowdy3Oj5VnafHdz%2BfQXlb5QcrNVRuyYbzkpBwhhjzLjPbaDSTc%2Fgk4IYUDGTrWbAPRm0DVlBGGE0NdT%2FDl7SSa%2FZs4x6%2FvvTeFBcN9eXRzorEp8WAp7%2FaD32GAllC12MCIXMymjX5DOuY%2Bzhzy2DOh5zvhvSFh4zG1SwZeXpC8jtdhIiFSiERUoWZ9pqhd8TQ%2BZ3D5j4kAjljWIQrXM13Hn4frRKrZrxgLKIdSAJ1zprQXr3w1p63y9ag%2BvcqcL9xAhhFDWXwKb3Q5ToS17YO86s2SgSxrR9OImpSVN7mGg0sNrjJF2vjRBQfhgzUt8t4E%2FL9Q9j%2BZpTUGRvGB8JcKX1Wf4lDuftvRDWwslrhqZKSYVmOLXGkXzYoUo9mwSmVLfDd2fr6NRPhO96btblN5dwmiPUJZB45i1STJmzAqEDnFHdp%2BD0v9RbTUYOC7nCJeQ4EECWeBHAjoRl8c602CxJR9PVkGpBQCs2KBti4S7rSdpZIWxBeM8GZM%2B8incqo0w7k0A98Pnw6Z7AN7NUmvbE%2B2Heul4l6Lhr14idZhbFO7RbkbKWaF2yTscvZ1bLXa9BDRm3P0riRV6AYM5tLIc%2BEkDgNWo%2F6pi%2B%2FrUKTBn%2FtvfT6TTTDYmMvPBjqkATovoIKHyv%2Fe6zyGOX9im02RfKoLsJnPGYNPP0lQR8JrHHi2Py4gmAX13pR0jN0bg6h6cHoqhstj2119P%2FiijcYMc48LXk6NLFzLHuiqlzRVDN2Yo6IyzquC1lQ8bD2iIh%2BFAp09RlDGI4GdcNvkp4ybCK1CZfoZksSeFImpoi8coDyAWgmO4N4OZv8qmC1XO9VvT7RlZ%2FK2JWN%2BBq%2FrRgU5kGlI&X-Amz-Signature=581493ff03c1032ad5ad34fddd63ce3372055ba3703b94ffd05cb8342f9a4725&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+            }
+          ]
+        },
+        {
+          "title": "Outcome",
+          "body": "완성된 브랜드 시스템은 온·오프라인 전 접점에 일관되게 적용되었으며, 넥슨 브랜드의 새로운 기준점이 되었습니다.",
+          "images": []
+        }
+      ],
+      "filter": [
+        "branding",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81679835dc65f2f4d129",
+      "title": "Select All",
+      "category": "Film",
+      "featured": true,
+      "product": "메이플스토리",
+      "year": "2023",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Campaign",
+        "Film"
+      ],
+      "color": "#DAD8D8",
+      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/c1180845-8ccf-44de-a219-a13e209d7f7e/select_all_0523_gif.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBLFNY3E%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDqLm0DYdjuYuE%2B3UtOJ04h3o2D19U6i9SDS49XbBs5tQIhAI7VDiQy3YxvMsJJ%2FCNbWi0INjx3Ghn8IS3BMMil8cwBKv8DCAUQABoMNjM3NDIzMTgzODA1Igz%2FdDB47SUSQINHvhgq3AMv%2BhModcSfcgU0brpiU0%2F4qQ7iA8msZ%2Bxd%2BBRCfRyw4EDnVpbpF%2Fns%2BDmGK3BPlLIYzPPzQ6ovp1zyPXraOH6Oyfi5zb7LBO5xzoYWcL0KyOa81udpMUrSchlEG1bzYd4WixOCz4lX9w6rrSf4YyRDMbTcvMejZc2qjbZpYvT2lCvKA4bRbRLfHWWuEpV%2BnWo2irq%2B7pXUo8oe%2B7m949TsCaRBzjb3JZNvrZOZ3ARB%2FjD8jQSM3%2BEoSe5HGtmi6mHG9%2BAPTek6OT7I%2Fc137k2E%2FbdEGUxAJU16BWDaPPlTuPJOFIFfwsXSe4NEkXHeaiKmexXrQqQIolKlduuQWX7vrnvmQljsgk%2BZ8Br%2BuYUTNPYkRzxhQN4MSwkOR12BvuuF%2BdFiCLkSiWjWHO6tMlPkQmRXFGEwLrx4kvvOQKM42MpQqyVIJDAIuV3w9Yr6V2S%2BUVYWw%2Fr7Y%2F81WNdV6StIadNoZ%2FbpKfIUBup7EyJ7Vyb4Rcf%2FLFaobJKV11wEPRgkCiYm089k4niqzPBosbGmNxtajXoWOz4LcRuYhOGNaLBRlfrxjz961MiAkESG21Z2pKDItmgV%2BYqk2iYK0g63irjO04KLeAcc1VO14mzVoCdzYwZsom8NgCFafzDJmsvPBjqkAeAs1zg17xVszrlsYvBWamIE2OIVfMdNM4T4FE%2BuyTyMpPve7Z25hajwoNN82e8CDSYqKyCWb%2BikzOyE0hG4HLWsqyZfSylu5oVcOJPUTk1rPOrV%2FNU79zQUA%2FVyQBYCjb1SoSCl037CPJgtCRVTp3LDsWx4wVNNkSoFTl5FdliOfVDSOK6doT1KJ2fBUZ3UAHEfrjgARHV8TddVAKRDHS39vES3&X-Amz-Signature=75f004f812652fe697a79e282d2e5483dc0466298eceaa9697e95f8b58ebece1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "thumbnailVideo": "",
+      "sections": [],
+      "filter": [
+        "film",
         "all"
       ]
     },
@@ -151,8 +150,8 @@
       ]
     },
     {
-      "id": "351dadb56b2f8121827ed7080285f681",
-      "title": "넥슨 디지털 가이드라인 시스템",
+      "id": "351dadb56b2f81b797bbfb92f99c0e86",
+      "title": "넥슨 연간 리포트 디자인",
       "category": "Graphic",
       "featured": false,
       "product": "넥슨 코리아",
@@ -160,39 +159,15 @@
       "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
       "tags": [
         "Brand Identity",
-        "Motion Graphics",
-        "Space",
-        "Visual System"
+        "Visual System",
+        "Digital"
       ],
-      "color": "#DCDCDC",
+      "color": "#D8D8DA",
       "thumbnail": "",
       "thumbnailVideo": "",
       "sections": [],
       "filter": [
         "graphic"
-      ]
-    },
-    {
-      "id": "351dadb56b2f81679835dc65f2f4d129",
-      "title": "Select All",
-      "category": "Film",
-      "featured": true,
-      "product": "메이플스토리",
-      "year": "2023",
-      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
-      "tags": [
-        "Brand Identity",
-        "Motion Graphics",
-        "Campaign",
-        "Film"
-      ],
-      "color": "#DAD8D8",
-      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/c1180845-8ccf-44de-a219-a13e209d7f7e/select_all_0523_gif.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OIMR3G2%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T022253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCID2tcfOdKaBycFd1OjyuPalgR8jLvI9DjfoX7tXzDkPYAiEA9YCdcbrqkAubW%2FLBj39uuI0b0T%2FgMqbpXe26sVUtsEUq%2FwMIAxAAGgw2Mzc0MjMxODM4MDUiDPQx%2BwOzN5cgpkGNmircA7WurgpQwSAlb3ZjI2yjAFE%2F4GA3wH83GunVK8If1vRqnfXC8V4lp7xpNeCkRjJLzdjFGRMKZZjnt3%2FUa6Kz8XVVMv07QfAg%2F0rKHxPAkVr1AZK7Ey%2BN7wllfvHyMY0YatEHXHGbDyX6fMws4H1HI7WYlg9Dwg%2FAFer1zzkc%2Bf6ymgUj2xcZaVHe0NFJXJY1Hd9hqpiq7OmrUQbdyOKxgdBHzavPGsYb%2BNKFD%2F2U1K6K4iZxvbTjbWfRYObjTbA%2BFojWgGzaFH1ZVT0djgpWLHQCmvuAopgS6Yb1RU63zOCSsWp5zVy%2Bs%2FQK1hpFIsXwMnFmz7NH5%2FtmHVFwUTYpjHqChPWY86RkBt8lWzVuLDBIijxWK9IolbCG6gD%2BIv9%2B0tyOlg%2BiTC84Km6MRLJPNxjQ5Jaa5Ctbd1eMHngp3AH6ICi%2FI3NGbOGYyxqzka17ZjSK%2Fl8FsIKTfCxBuWvm1haLovvInUU2lTJiXTPApoLh1gK7JE2c9%2F9Ne%2Bq4Qndz9KNNX7UJA0h%2BEk%2FXy%2Bq%2Bg9sROW3TrlJjb305p2otC7fNYG4v%2F4l3h7RBF4PbM7Tz%2BQ46%2BAx5CvD1RCSF9FIoYqgcO%2FHS9cWBoUqZtsFCzs7UZjXooRPRnXL0s7vJMOnzys8GOqUBltf06E9PMLlv%2BKnn3%2FBm1chejYZnyKNW4Y7ehpfWM4RsvQP4455jNvCo3bt04bKf6wZmWTlowuEGxGX1z%2FQ0MINeeV1MlWDnIvJLqEwKO0tzyW6HEQSmDbg7%2F%2FMO%2F81ySzr3Y762zcDVIOCKrXZDpbeujFKOzEOgOJB7XGN2DDzYvrT4GXccu3RjQrwrLPOTbJFsqmFh6bNWg1KR4aQ2O1EIT4td&X-Amz-Signature=291d33f1d36b053c87c1c374141ec43013977f4499df73ff9a9b23b1686e62c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-      "thumbnailVideo": "",
-      "sections": [],
-      "filter": [
-        "film",
-        "all"
       ]
     },
     {
@@ -218,24 +193,49 @@
       ]
     },
     {
-      "id": "351dadb56b2f81b797bbfb92f99c0e86",
-      "title": "넥슨 연간 리포트 디자인",
+      "id": "351dadb56b2f81c593d0dd5f1085034b",
+      "title": "넥슨 뮤지엄",
       "category": "Graphic",
-      "featured": false,
-      "product": "넥슨 코리아",
-      "year": "2023",
+      "featured": true,
+      "product": "넥슨 뮤지엄",
+      "year": "2025",
       "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
       "tags": [
         "Brand Identity",
-        "Visual System",
-        "Digital"
+        "Motion Graphics",
+        "Space",
+        "Visual System"
       ],
-      "color": "#D8D8DA",
-      "thumbnail": "",
+      "color": "#DADADA",
+      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/011bf5ae-34ed-4ee4-aef0-1617dadf1a26/B-sign.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBLFNY3E%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDqLm0DYdjuYuE%2B3UtOJ04h3o2D19U6i9SDS49XbBs5tQIhAI7VDiQy3YxvMsJJ%2FCNbWi0INjx3Ghn8IS3BMMil8cwBKv8DCAUQABoMNjM3NDIzMTgzODA1Igz%2FdDB47SUSQINHvhgq3AMv%2BhModcSfcgU0brpiU0%2F4qQ7iA8msZ%2Bxd%2BBRCfRyw4EDnVpbpF%2Fns%2BDmGK3BPlLIYzPPzQ6ovp1zyPXraOH6Oyfi5zb7LBO5xzoYWcL0KyOa81udpMUrSchlEG1bzYd4WixOCz4lX9w6rrSf4YyRDMbTcvMejZc2qjbZpYvT2lCvKA4bRbRLfHWWuEpV%2BnWo2irq%2B7pXUo8oe%2B7m949TsCaRBzjb3JZNvrZOZ3ARB%2FjD8jQSM3%2BEoSe5HGtmi6mHG9%2BAPTek6OT7I%2Fc137k2E%2FbdEGUxAJU16BWDaPPlTuPJOFIFfwsXSe4NEkXHeaiKmexXrQqQIolKlduuQWX7vrnvmQljsgk%2BZ8Br%2BuYUTNPYkRzxhQN4MSwkOR12BvuuF%2BdFiCLkSiWjWHO6tMlPkQmRXFGEwLrx4kvvOQKM42MpQqyVIJDAIuV3w9Yr6V2S%2BUVYWw%2Fr7Y%2F81WNdV6StIadNoZ%2FbpKfIUBup7EyJ7Vyb4Rcf%2FLFaobJKV11wEPRgkCiYm089k4niqzPBosbGmNxtajXoWOz4LcRuYhOGNaLBRlfrxjz961MiAkESG21Z2pKDItmgV%2BYqk2iYK0g63irjO04KLeAcc1VO14mzVoCdzYwZsom8NgCFafzDJmsvPBjqkAeAs1zg17xVszrlsYvBWamIE2OIVfMdNM4T4FE%2BuyTyMpPve7Z25hajwoNN82e8CDSYqKyCWb%2BikzOyE0hG4HLWsqyZfSylu5oVcOJPUTk1rPOrV%2FNU79zQUA%2FVyQBYCjb1SoSCl037CPJgtCRVTp3LDsWx4wVNNkSoFTl5FdliOfVDSOK6doT1KJ2fBUZ3UAHEfrjgARHV8TddVAKRDHS39vES3&X-Amz-Signature=9f466fd5d503c421b98fb91fc825e2012e4009160ea3282e8efd7b24054d1e62&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
       "thumbnailVideo": "",
       "sections": [],
       "filter": [
-        "graphic"
+        "graphic",
+        "all"
+      ]
+    },
+    {
+      "id": "351dadb56b2f81e89b5ec22ee9b77cb6",
+      "title": "게임스케일 ScaleSans",
+      "category": "Branding",
+      "featured": true,
+      "product": "메이플스토리",
+      "year": "2024",
+      "credits": "김보미, 김환희, 김효신, 박지은, 조진태, 홍준수",
+      "tags": [
+        "Brand Identity",
+        "Motion Graphics",
+        "Space",
+        "Visual System"
+      ],
+      "color": "#D4D4D4",
+      "thumbnail": "https://prod-files-secure.s3.us-west-2.amazonaws.com/1a291f48-3828-4423-85ef-2bfe48757949/72e4d68f-99ae-4857-9fd5-0e49167d8bfb/Frame_1321316909.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBLFNY3E%2F20260430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260430T035604Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQDqLm0DYdjuYuE%2B3UtOJ04h3o2D19U6i9SDS49XbBs5tQIhAI7VDiQy3YxvMsJJ%2FCNbWi0INjx3Ghn8IS3BMMil8cwBKv8DCAUQABoMNjM3NDIzMTgzODA1Igz%2FdDB47SUSQINHvhgq3AMv%2BhModcSfcgU0brpiU0%2F4qQ7iA8msZ%2Bxd%2BBRCfRyw4EDnVpbpF%2Fns%2BDmGK3BPlLIYzPPzQ6ovp1zyPXraOH6Oyfi5zb7LBO5xzoYWcL0KyOa81udpMUrSchlEG1bzYd4WixOCz4lX9w6rrSf4YyRDMbTcvMejZc2qjbZpYvT2lCvKA4bRbRLfHWWuEpV%2BnWo2irq%2B7pXUo8oe%2B7m949TsCaRBzjb3JZNvrZOZ3ARB%2FjD8jQSM3%2BEoSe5HGtmi6mHG9%2BAPTek6OT7I%2Fc137k2E%2FbdEGUxAJU16BWDaPPlTuPJOFIFfwsXSe4NEkXHeaiKmexXrQqQIolKlduuQWX7vrnvmQljsgk%2BZ8Br%2BuYUTNPYkRzxhQN4MSwkOR12BvuuF%2BdFiCLkSiWjWHO6tMlPkQmRXFGEwLrx4kvvOQKM42MpQqyVIJDAIuV3w9Yr6V2S%2BUVYWw%2Fr7Y%2F81WNdV6StIadNoZ%2FbpKfIUBup7EyJ7Vyb4Rcf%2FLFaobJKV11wEPRgkCiYm089k4niqzPBosbGmNxtajXoWOz4LcRuYhOGNaLBRlfrxjz961MiAkESG21Z2pKDItmgV%2BYqk2iYK0g63irjO04KLeAcc1VO14mzVoCdzYwZsom8NgCFafzDJmsvPBjqkAeAs1zg17xVszrlsYvBWamIE2OIVfMdNM4T4FE%2BuyTyMpPve7Z25hajwoNN82e8CDSYqKyCWb%2BikzOyE0hG4HLWsqyZfSylu5oVcOJPUTk1rPOrV%2FNU79zQUA%2FVyQBYCjb1SoSCl037CPJgtCRVTp3LDsWx4wVNNkSoFTl5FdliOfVDSOK6doT1KJ2fBUZ3UAHEfrjgARHV8TddVAKRDHS39vES3&X-Amz-Signature=2277485910a84872d3318ad04a8c2f378ac975c1777ec3c04412fe5ac4b723b5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "thumbnailVideo": "",
+      "sections": [],
+      "filter": [
+        "branding",
+        "all"
       ]
     }
   ]
