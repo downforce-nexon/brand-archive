@@ -53,7 +53,7 @@ async function fetchDB() {
     method: 'POST',
     headers,
     body: JSON.stringify({
-      sorts: [{ property: 'Order', direction: 'ascending' }],
+      sorts: [{ timestamp: 'created_time', direction: 'descending' }],
       filter: { property: 'Published', checkbox: { equals: true } }
     }),
   });
